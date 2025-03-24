@@ -1,0 +1,6 @@
+C:\Users\Usuario\source\repos\ControlCilindros\ControlCilindros\bin\Release\net8.0-windows\publish\ControlCilindros.exe
+C:\Users\Usuario\source\repos\ControlCilindros\ControlCilindros\bin\Release\net8.0-windows\publish\ControlCilindros.dll
+C:\Users\Usuario\source\repos\ControlCilindros\ControlCilindros\bin\Release\net8.0-windows\publish\ControlCilindros.deps.json
+C:\Users\Usuario\source\repos\ControlCilindros\ControlCilindros\bin\Release\net8.0-windows\publish\ControlCilindros.runtimeconfig.json
+C:\Users\Usuario\source\repos\ControlCilindros\ControlCilindros\bin\Release\net8.0-windows\publish\ControlCilindros.pdb
+C:\Users\Usuario\source\repos\ControlCilindros\ControlCilindros\bin\Release\net8.0-windows\publish\MaterialSkin.dll

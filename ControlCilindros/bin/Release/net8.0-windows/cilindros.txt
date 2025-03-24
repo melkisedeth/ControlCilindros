@@ -1,0 +1,110 @@
+[
+  {
+    "Id": 1,
+    "NumeroCilindro": "8",
+    "Tipo": "R22",
+    "Estado": null,
+    "PesoInicial": 10380,
+    "PrecioPorGramo": 65,
+    "ClienteInfo": "8 - R22"
+  },
+  {
+    "Id": 2,
+    "NumeroCilindro": "15",
+    "Tipo": "R410",
+    "Estado": agotado,
+    "PesoInicial": 6000,
+    "PrecioPorGramo": 55,
+    "ClienteInfo": "15 - R410"
+  },
+  {
+    "Id": 3,
+    "NumeroCilindro": "1",
+    "Tipo": "R22",
+    "Estado": null,
+    "PesoInicial": 11090,
+    "PrecioPorGramo": 65,
+    "ClienteInfo": "1 - R22"
+  },
+  {
+    "Id": 4,
+    "NumeroCilindro": "3",
+    "Tipo": "R410",
+    "Estado": agotado,
+    "PesoInicial": 5360,
+    "PrecioPorGramo": 55,
+    "ClienteInfo": "3 - R410"
+  },
+  {
+    "Id": 5,
+    "NumeroCilindro": "10",
+    "Tipo": "R410",
+    "Estado": agotado,
+    "PesoInicial": 4610,
+    "PrecioPorGramo": 55,
+    "ClienteInfo": "10 - R410"
+  },
+  {
+    "Id": 6,
+    "NumeroCilindro": "18",
+    "Tipo": "R410",
+    "Estado": agotado,
+    "PesoInicial": 14805,
+    "PrecioPorGramo": 55,
+    "ClienteInfo": "18 - R410"
+  },
+  {
+    "Id": 7,
+    "NumeroCilindro": "7",
+    "Tipo": "R134",
+    "Estado": null,
+    "PesoInicial": 16045,
+    "PrecioPorGramo": 45,
+    "ClienteInfo": "7 - R134"
+  },
+  {
+    "Id": 8,
+    "NumeroCilindro": "23",
+    "Tipo": "R410",
+    "Estado": agotado,
+    "PesoInicial": 14745,
+    "PrecioPorGramo": 55,
+    "ClienteInfo": "23 - R410"
+  },
+  {
+    "Id": 9,
+    "NumeroCilindro": "7",
+    "Tipo": "R410",
+    "Estado": agotado,
+    "PesoInicial": 14735,
+    "PrecioPorGramo": 55,
+    "ClienteInfo": "7 - R410"
+  },
+  {
+    "Id": 10,
+    "NumeroCilindro": "2",
+    "Tipo": "R22",
+    "Estado": null,
+    "PesoInicial": 16010,
+    "PrecioPorGramo": 65,
+    "ClienteInfo": "2 - R22"
+  },
+  {
+    "Id": 11,
+    "NumeroCilindro": "8",
+    "Tipo": "R22",
+    "Estado": null,
+    "PesoInicial": 5280,
+    "PrecioPorGramo": 65,
+    "ClienteInfo": "8 - R22"
+  },
+  {
+    "Id": 12,
+    "NumeroCilindro": "20",
+    "Tipo": "R22",
+    "Estado": null,
+    "PesoInicial": 16000,
+    "PrecioPorGramo": 65,
+    "ClienteInfo": "20 - R22"
+  }
+]

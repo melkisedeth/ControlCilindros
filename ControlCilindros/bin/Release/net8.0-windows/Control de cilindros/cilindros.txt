@@ -1,0 +1,10 @@
+[
+  {
+    "Id": 1,
+    "NumeroCilindro": "8",
+    "Tipo": "R22",
+    "PesoInicial": 11120,
+    "PrecioPorGramo": 65,
+    "ClienteInfo": "8 - R22"
+  }
+]

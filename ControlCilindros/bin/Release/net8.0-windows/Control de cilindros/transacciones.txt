@@ -1,0 +1,31 @@
+[
+  {
+    "Id": 756,
+    "Cliente": {
+      "Id": 1,
+      "Nombre": "NICOLAS FONTALVO",
+      "Telefono": "3146725750"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": null,
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "PesoInicial": 11120,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-20T18:50:31.5552561-05:00",
+    "FechaRecibido": "0001-01-01T00:00:00",
+    "PesoFinal": 11120,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "prestado",
+    "ClienteInfo": "756 - NICOLAS FONTALVO - JUNIOR REALES - 8  - 11120",
+    "CilindroInfo": "8 - R22"
+  }
+]

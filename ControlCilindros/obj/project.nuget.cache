@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZeTfaNcilLA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\ControlCilindros\\ControlCilindros\\ControlCilindros.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\materialskin.net5\\1.0.2\\materialskin.net5.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

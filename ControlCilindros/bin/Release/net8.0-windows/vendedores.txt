@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "Nombre": "JUNIOR REALES"
+  },
+  {
+    "Id": 2,
+    "Nombre": "IVAN TOBIAS"
+  },
+  {
+    "Id": 3,
+    "Nombre": "ANDRES BARRAZA"
+  },
+  {
+    "Id": 4,
+    "Nombre": "LEONARDO MOLINA"
+  },
+  {
+    "Id": 5,
+    "Nombre": "ALVARO MARIN"
+  },
+  {
+    "Id": 6,
+    "Nombre": "DIEGO TOBIAS"
+  },
+  {
+    "Id": 7,
+    "Nombre": "MELKY TOBIAS"
+  },
+  {
+    "Id": 8,
+    "Nombre": "KEVIN RAMOS"
+  },
+  {
+    "Id": 9,
+    "Nombre": "JUNIOR REALES"
+  }
+]

@@ -1,0 +1,6659 @@
+[
+  {
+    "Id": 756,
+    "Cliente": {
+      "Id": 1,
+      "Nombre": "NICOLAS FONTALVO",
+      "Telefono": "3146725750"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11120,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-20T18:50:31.5552561-05:00",
+    "FechaRecibido": "2025-01-21T09:05:54.5936357-05:00",
+    "PesoFinal": 10990,
+    "Consumo": 130,
+    "Total": 8450,
+    "estado": "devuelto",
+    "ClienteInfo": "756 - NICOLAS FONTALVO - JUNIOR REALES - 8 R22  - 10990",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 887,
+    "Cliente": {
+      "Id": 3,
+      "Nombre": "LUIS MONTIRA",
+      "Telefono": "3206235532"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 2,
+      "NumeroCilindro": "15",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 6000,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "15 - R410"
+    },
+    "Fecha": "2025-01-21T09:07:38.0685192-05:00",
+    "FechaRecibido": "2025-01-21T17:52:43.6497974-05:00",
+    "PesoFinal": 5465,
+    "Consumo": 535,
+    "Total": 29425,
+    "estado": "devuelto",
+    "ClienteInfo": "887 - LUIS MONTIRA - MELKY TOBIAS - 15 R410  - 5465",
+    "CilindroInfo": "15 R410"
+  },
+  {
+    "Id": 368,
+    "Cliente": {
+      "Id": 4,
+      "Nombre": "WALTER SEPULVEDA",
+      "Telefono": "3234574519"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10990,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-21T09:11:13.4838993-05:00",
+    "FechaRecibido": "2025-01-21T12:07:22.898278-05:00",
+    "PesoFinal": 10805,
+    "Consumo": 185,
+    "Total": 12025,
+    "estado": "devuelto",
+    "ClienteInfo": "368 - WALTER SEPULVEDA - DIEGO TOBIAS - 8 R22  - 10805",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 228,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 4,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-01-21T11:23:34.2542979-05:00",
+    "FechaRecibido": "2025-01-21T12:11:09.2718743-05:00",
+    "PesoFinal": 11005,
+    "Consumo": 85,
+    "Total": 5525,
+    "estado": "devuelto",
+    "ClienteInfo": "228 - JADER VILORIA  - DIEGO TOBIAS - 1 R22  - 11005",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 572,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 9,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11005,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-21T12:43:52.5558763-05:00",
+    "FechaRecibido": "2025-01-21T13:32:50.4542635-05:00",
+    "PesoFinal": 10380,
+    "Consumo": 420,
+    "Total": 27300,
+    "estado": "devuelto",
+    "ClienteInfo": "572 - JADER VILORIA  - JUNIOR REALES - 8 R22  - 10380",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 848,
+    "Cliente": {
+      "Id": 6,
+      "Nombre": "JAVIER FLORES",
+      "Telefono": "3154166670"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 4,
+      "NumeroCilindro": "3",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 5360,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "3 - R410"
+    },
+    "Fecha": "2025-01-21T18:35:59.6681778-05:00",
+    "FechaRecibido": "2025-01-22T07:55:15.8641029-05:00",
+    "PesoFinal": 4915,
+    "Consumo": 445,
+    "Total": 24475,
+    "estado": "devuelto",
+    "ClienteInfo": "848 - JAVIER FLORES - MELKY TOBIAS - 3 R410  - 4915",
+    "CilindroInfo": "3 R410"
+  },
+  {
+    "Id": 663,
+    "Cliente": {
+      "Id": 8,
+      "Nombre": "HERMES GUTIERREZ",
+      "Telefono": "3216732450"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 4,
+      "NumeroCilindro": "3",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 5360,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "3 - R410"
+    },
+    "Fecha": "2025-01-22T08:25:53.6288979-05:00",
+    "FechaRecibido": "2025-01-22T08:47:20.9926324-05:00",
+    "PesoFinal": 4680,
+    "Consumo": 235,
+    "Total": 12925,
+    "estado": "devuelto",
+    "ClienteInfo": "663 - HERMES GUTIERREZ - MELKY TOBIAS - 3 R410  - 4680",
+    "CilindroInfo": "3 R410"
+  },
+  {
+    "Id": 847,
+    "Cliente": {
+      "Id": 7,
+      "Nombre": "EDGAR MENDOZA",
+      "Telefono": "ANOTAR"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "Cilindro": {
+      "Id": 2,
+      "NumeroCilindro": "15",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 6000,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "15 - R410"
+    },
+    "Fecha": "2025-01-22T08:26:42.4747003-05:00",
+    "FechaRecibido": "2025-01-22T09:24:27.292404-05:00",
+    "PesoFinal": 5145,
+    "Consumo": 325,
+    "Total": 17875,
+    "estado": "devuelto",
+    "ClienteInfo": "847 - EDGAR MENDOZA - MELKY TOBIAS - 15 R410  - 5145",
+    "CilindroInfo": "15 R410"
+  },
+  {
+    "Id": 521,
+    "Cliente": {
+      "Id": 9,
+      "Nombre": "JAVIER RAMBAL ",
+      "Telefono": "3016862515"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-22T08:52:38.0237519-05:00",
+    "FechaRecibido": "2025-01-22T09:13:55.7811424-05:00",
+    "PesoFinal": 10330,
+    "Consumo": 45,
+    "Total": 2925,
+    "estado": "devuelto",
+    "ClienteInfo": "521 - JAVIER RAMBAL  - JUNIOR REALES - 8 R22  - 10330",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 992,
+    "Cliente": {
+      "Id": 3,
+      "Nombre": "LUIS MONTIRA",
+      "Telefono": "3206235532"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "Cilindro": {
+      "Id": 2,
+      "NumeroCilindro": "15",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 6000,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "15 - R410"
+    },
+    "Fecha": "2025-01-22T10:50:57.1460536-05:00",
+    "FechaRecibido": "2025-01-22T12:29:25.8306355-05:00",
+    "PesoFinal": 4770,
+    "Consumo": 375,
+    "Total": 20625,
+    "estado": "devuelto",
+    "ClienteInfo": "992 - LUIS MONTIRA - JUNIOR REALES - 15 R410  - 4770",
+    "CilindroInfo": "15 R410"
+  },
+  {
+    "Id": 641,
+    "Cliente": {
+      "Id": 9,
+      "Nombre": "JAVIER RAMBAL ",
+      "Telefono": "3016862515"
+    },
+    "Vendedor": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-22T16:43:02.4974285-05:00",
+    "FechaRecibido": "2025-01-22T18:06:31.4647105-05:00",
+    "PesoFinal": 10000,
+    "Consumo": 335,
+    "Total": 21775,
+    "estado": "devuelto",
+    "ClienteInfo": "641 - JAVIER RAMBAL  - ANDRES BARRAZA - 8 R22  - 10000",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 937,
+    "Cliente": {
+      "Id": 3,
+      "Nombre": "LUIS MONTIRA",
+      "Telefono": "3206235532"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "Cilindro": {
+      "Id": 4,
+      "NumeroCilindro": "3",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 5360,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "3 - R410"
+    },
+    "Fecha": "2025-01-22T17:14:15.5178239-05:00",
+    "FechaRecibido": "2025-01-23T10:09:01.0833926-05:00",
+    "PesoFinal": 4520,
+    "Consumo": 165,
+    "Total": 9075,
+    "estado": "devuelto",
+    "ClienteInfo": "937 - LUIS MONTIRA - JUNIOR REALES - 3 R410  - 4520",
+    "CilindroInfo": "3 R410"
+  },
+  {
+    "Id": 928,
+    "Cliente": {
+      "Id": 10,
+      "Nombre": "NELSON DIAZ",
+      "Telefono": "3205252375"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "Cilindro": {
+      "Id": 2,
+      "NumeroCilindro": "15",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 6000,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "15 - R410"
+    },
+    "Fecha": "2025-01-23T10:06:12.818074-05:00",
+    "FechaRecibido": "2025-01-23T10:16:25.5855612-05:00",
+    "PesoFinal": 4610,
+    "Consumo": 155,
+    "Total": 8525,
+    "estado": "devuelto",
+    "ClienteInfo": "928 - NELSON DIAZ - JUNIOR REALES - 15 R410  - 4610",
+    "CilindroInfo": "15 R410"
+  },
+  {
+    "Id": 457,
+    "Cliente": {
+      "Id": 9,
+      "Nombre": "JAVIER RAMBAL ",
+      "Telefono": "3016862515"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 2,
+      "NumeroCilindro": "15",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 6000,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "15 - R410"
+    },
+    "Fecha": "2025-01-23T16:56:38.9754539-05:00",
+    "FechaRecibido": "2025-01-23T18:04:35.8722759-05:00",
+    "PesoFinal": 4445,
+    "Consumo": 160,
+    "Total": 8800,
+    "estado": "devuelto",
+    "ClienteInfo": "457 - JAVIER RAMBAL  - KEVIN RAMOS - 15 R410  - 4445",
+    "CilindroInfo": "15 R410"
+  },
+  {
+    "Id": 759,
+    "Cliente": {
+      "Id": 9,
+      "Nombre": "JAVIER RAMBAL ",
+      "Telefono": "3016862515"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 5,
+      "NumeroCilindro": "10",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 4610,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "10 - R410"
+    },
+    "Fecha": "2025-01-23T16:57:57.2337594-05:00",
+    "FechaRecibido": "2025-01-23T18:04:14.0253757-05:00",
+    "PesoFinal": 4420,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "devuelto",
+    "ClienteInfo": "759 - JAVIER RAMBAL  - MELKY TOBIAS - 10 R410  - 4420",
+    "CilindroInfo": "10 R410"
+  },
+  {
+    "Id": 867,
+    "Cliente": {
+      "Id": 12,
+      "Nombre": "ALFREDO MARCIALES",
+      "Telefono": "3123213304"
+    },
+    "Vendedor": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-24T11:20:14.3882195-05:00",
+    "FechaRecibido": "2025-01-24T15:06:01.2492994-05:00",
+    "PesoFinal": 9810,
+    "Consumo": 290,
+    "Total": 18850,
+    "estado": "devuelto",
+    "ClienteInfo": "867 - ALFREDO MARCIALES - LEONARDO MOLINA - 8 R22  - 9810",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 459,
+    "Cliente": {
+      "Id": 13,
+      "Nombre": "LUIS LOBO",
+      "Telefono": "3001447674"
+    },
+    "Vendedor": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 4,
+      "NumeroCilindro": "3",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 5360,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "3 - R410"
+    },
+    "Fecha": "2025-01-24T12:58:13.5122554-05:00",
+    "FechaRecibido": "2025-01-24T15:03:08.792882-05:00",
+    "PesoFinal": 4340,
+    "Consumo": 185,
+    "Total": 10175,
+    "estado": "devuelto",
+    "ClienteInfo": "459 - LUIS LOBO - ANDRES BARRAZA - 3 R410  - 4340",
+    "CilindroInfo": "3 R410"
+  },
+  {
+    "Id": 268,
+    "Cliente": {
+      "Id": 14,
+      "Nombre": "SE\u00D1OR LUIS",
+      "Telefono": "3103634075"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 4,
+      "NumeroCilindro": "3",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 5360,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "3 - R410"
+    },
+    "Fecha": "2025-01-25T09:37:40.9837653-05:00",
+    "FechaRecibido": "2025-03-08T08:00:09.1690903-05:00",
+    "PesoFinal": 3855,
+    "Consumo": 485,
+    "Total": 26675,
+    "estado": "devuelto",
+    "ClienteInfo": "268 - SE\u00D1OR LUIS - MELKY TOBIAS - 3 R410  - 3855",
+    "CilindroInfo": "3 R410"
+  },
+  {
+    "Id": 954,
+    "Cliente": {
+      "Id": 3,
+      "Nombre": "LUIS MONTIRA",
+      "Telefono": "3206235532"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 2,
+      "NumeroCilindro": "15",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 6000,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "15 - R410"
+    },
+    "Fecha": "2025-01-25T12:01:59.3812986-05:00",
+    "FechaRecibido": "2025-01-25T12:02:13.3508081-05:00",
+    "PesoFinal": 4155,
+    "Consumo": 290,
+    "Total": 15950,
+    "estado": "devuelto",
+    "ClienteInfo": "954 - LUIS MONTIRA - MELKY TOBIAS - 15 R410  - 4155",
+    "CilindroInfo": "15 R410"
+  },
+  {
+    "Id": 157,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-25T12:34:28.3799845-05:00",
+    "FechaRecibido": "2025-01-25T15:16:55.595021-05:00",
+    "PesoFinal": 9805,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "devuelto",
+    "ClienteInfo": "157 - JADER VILORIA  - JUNIOR REALES - 8 R22  - 9805",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 780,
+    "Cliente": {
+      "Id": 15,
+      "Nombre": "MEMIN",
+      "Telefono": "3113279731"
+    },
+    "Vendedor": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "VendedorRecibe": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "Cilindro": {
+      "Id": 2,
+      "NumeroCilindro": "15",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 6000,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "15 - R410"
+    },
+    "Fecha": "2025-01-25T13:46:19.0813607-05:00",
+    "FechaRecibido": "2025-01-25T14:24:36.7418601-05:00",
+    "PesoFinal": 4170,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "devuelto",
+    "ClienteInfo": "780 - MEMIN - ANDRES BARRAZA - 15 R410  - 4170",
+    "CilindroInfo": "15 R410"
+  },
+  {
+    "Id": 953,
+    "Cliente": {
+      "Id": 16,
+      "Nombre": "JORGE PRADA",
+      "Telefono": "3188417953"
+    },
+    "Vendedor": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "VendedorRecibe": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "Cilindro": {
+      "Id": 4,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-01-25T15:16:27.0581326-05:00",
+    "FechaRecibido": "2025-01-25T16:41:55.0139598-05:00",
+    "PesoFinal": 10760,
+    "Consumo": 240,
+    "Total": 15600,
+    "estado": "devuelto",
+    "ClienteInfo": "953 - JORGE PRADA - ANDRES BARRAZA - 1 R22  - 10760",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 735,
+    "Cliente": {
+      "Id": 17,
+      "Nombre": "JAVIER GARCIA",
+      "Telefono": "3229240129"
+    },
+    "Vendedor": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-25T15:32:33.9939473-05:00",
+    "FechaRecibido": "2025-01-25T16:17:39.1450376-05:00",
+    "PesoFinal": 9480,
+    "Consumo": 330,
+    "Total": 21450,
+    "estado": "devuelto",
+    "ClienteInfo": "735 - JAVIER GARCIA - ANDRES BARRAZA - 8 R22  - 9480",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 889,
+    "Cliente": {
+      "Id": 18,
+      "Nombre": "MARLON RUIZ ",
+      "Telefono": "3145891662"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-26T11:03:08.7117679-05:00",
+    "FechaRecibido": "2025-01-26T11:48:10.9828799-05:00",
+    "PesoFinal": 9240,
+    "Consumo": 245,
+    "Total": 15925,
+    "estado": "devuelto",
+    "ClienteInfo": "889 - MARLON RUIZ  - DIEGO TOBIAS - 8 R22  - 9240",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 558,
+    "Cliente": {
+      "Id": 19,
+      "Nombre": "MANUEL VILLAMISAR",
+      "Telefono": "33146403725"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-27T12:57:30.8559536-05:00",
+    "FechaRecibido": "2025-01-27T13:49:18.5310848-05:00",
+    "PesoFinal": 9200,
+    "Consumo": 40,
+    "Total": 2600,
+    "estado": "devuelto",
+    "ClienteInfo": "558 - MANUEL VILLAMISAR - KEVIN RAMOS - 8 R22  - 9200",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 905,
+    "Cliente": {
+      "Id": 20,
+      "Nombre": "JESUS MARTINEZ ",
+      "Telefono": "3208193840"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-28T09:24:10.6677519-05:00",
+    "FechaRecibido": "2025-01-28T09:42:05.9880082-05:00",
+    "PesoFinal": 9145,
+    "Consumo": 50,
+    "Total": 3250,
+    "estado": "devuelto",
+    "ClienteInfo": "905 - JESUS MARTINEZ  - DIEGO TOBIAS - 8 R22  - 9145",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 299,
+    "Cliente": {
+      "Id": 16,
+      "Nombre": "JORGE PRADA",
+      "Telefono": "3188417953"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-01-28T10:05:23.9684848-05:00",
+    "FechaRecibido": "2025-01-28T11:18:41.7896185-05:00",
+    "PesoFinal": 14185,
+    "Consumo": 620,
+    "Total": 34100,
+    "estado": "devuelto",
+    "ClienteInfo": "299 - JORGE PRADA - JUNIOR REALES - 18 R410  - 14185",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 850,
+    "Cliente": {
+      "Id": 22,
+      "Nombre": "GALAN ",
+      "Telefono": "3142515456"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-28T10:48:25.8636793-05:00",
+    "FechaRecibido": "2025-01-28T11:28:39.9807179-05:00",
+    "PesoFinal": 8800,
+    "Consumo": 345,
+    "Total": 22425,
+    "estado": "devuelto",
+    "ClienteInfo": "850 - GALAN  - DIEGO TOBIAS - 8 R22  - 8800",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 475,
+    "Cliente": {
+      "Id": 9,
+      "Nombre": "JAVIER RAMBAL ",
+      "Telefono": "3016862515"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-28T12:59:32.1424404-05:00",
+    "FechaRecibido": "2025-01-28T14:22:35.7053763-05:00",
+    "PesoFinal": 8135,
+    "Consumo": 660,
+    "Total": 42900,
+    "estado": "devuelto",
+    "ClienteInfo": "475 - JAVIER RAMBAL  - MELKY TOBIAS - 8 R22  - 8135",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 285,
+    "Cliente": {
+      "Id": 19,
+      "Nombre": "MANUEL VILLAMISAR",
+      "Telefono": "33146403725"
+    },
+    "Vendedor": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-28T15:48:22.1157071-05:00",
+    "FechaRecibido": "2025-01-30T11:10:26.9580464-05:00",
+    "PesoFinal": 8085,
+    "Consumo": 9860,
+    "Total": 640900,
+    "estado": "devuelto",
+    "ClienteInfo": "285 - MANUEL VILLAMISAR - LEONARDO MOLINA - 8 R22  - 8085",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 827,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "VendedorRecibe": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 4,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-01-28T16:14:22.930957-05:00",
+    "FechaRecibido": "2025-01-28T16:35:28.6076391-05:00",
+    "PesoFinal": 10505,
+    "Consumo": 265,
+    "Total": 17225,
+    "estado": "devuelto",
+    "ClienteInfo": "827 - JADER VILORIA  - LEONARDO MOLINA - 1 R22  - 10505",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 285,
+    "Cliente": {
+      "Id": 23,
+      "Nombre": "HUGUES TONCEL ",
+      "Telefono": "3128194318"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-01-28T18:29:37.9952595-05:00",
+    "FechaRecibido": "2025-01-29T08:29:33.8055909-05:00",
+    "PesoFinal": 13525,
+    "Consumo": 675,
+    "Total": 37125,
+    "estado": "devuelto",
+    "ClienteInfo": "285 - HUGUES TONCEL  - JUNIOR REALES - 18 R410  - 13525",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 135,
+    "Cliente": {
+      "Id": 12,
+      "Nombre": "ALFREDO MARCIALES",
+      "Telefono": "3123213304"
+    },
+    "Vendedor": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "VendedorRecibe": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "Cilindro": {
+      "Id": 7,
+      "NumeroCilindro": "7",
+      "Tipo": "R134",
+      "Estado": null,
+      "PesoInicial": 16045,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R134"
+    },
+    "Fecha": "2025-01-29T09:26:41.6299957-05:00",
+    "FechaRecibido": "2025-01-29T13:10:31.0366683-05:00",
+    "PesoFinal": 15785,
+    "Consumo": 275,
+    "Total": 15125,
+    "estado": "devuelto",
+    "ClienteInfo": "135 - ALFREDO MARCIALES - ALVARO MARIN - 7 R134  - 15785",
+    "CilindroInfo": "7 R134"
+  },
+  {
+    "Id": 602,
+    "Cliente": {
+      "Id": 24,
+      "Nombre": "CAMILO VILORIA",
+      "Telefono": "3147059451"
+    },
+    "Vendedor": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 4,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-01-29T13:16:52.7180135-05:00",
+    "FechaRecibido": "2025-01-29T14:19:47.9743496-05:00",
+    "PesoFinal": 10505,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "devuelto",
+    "ClienteInfo": "602 - CAMILO VILORIA - ANDRES BARRAZA - 1 R22  - 10505",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 172,
+    "Cliente": {
+      "Id": 25,
+      "Nombre": "EDWIN TICORA",
+      "Telefono": "3147332126"
+    },
+    "Vendedor": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "VendedorRecibe": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-01-29T13:54:59.3186706-05:00",
+    "FechaRecibido": "2025-01-29T15:57:22.1212192-05:00",
+    "PesoFinal": 13315,
+    "Consumo": 205,
+    "Total": 11275,
+    "estado": "devuelto",
+    "ClienteInfo": "172 - EDWIN TICORA - LEONARDO MOLINA - 18 R410  - 13315",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 881,
+    "Cliente": {
+      "Id": 22,
+      "Nombre": "GALAN ",
+      "Telefono": "3142515456"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-01-29T16:01:48.8650667-05:00",
+    "FechaRecibido": "2025-01-29T16:43:02.7603756-05:00",
+    "PesoFinal": 13270,
+    "Consumo": 50,
+    "Total": 2750,
+    "estado": "devuelto",
+    "ClienteInfo": "881 - GALAN  - DIEGO TOBIAS - 18 R410  - 13270",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 870,
+    "Cliente": {
+      "Id": 17,
+      "Nombre": "JAVIER GARCIA",
+      "Telefono": "3229240129"
+    },
+    "Vendedor": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 4,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-01-29T18:09:17.6353125-05:00",
+    "FechaRecibido": "2025-01-30T08:42:25.0979413-05:00",
+    "PesoFinal": 10385,
+    "Consumo": 125,
+    "Total": 8125,
+    "estado": "devuelto",
+    "ClienteInfo": "870 - JAVIER GARCIA - ANDRES BARRAZA - 1 R22  - 10385",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 709,
+    "Cliente": {
+      "Id": 16,
+      "Nombre": "JORGE PRADA",
+      "Telefono": "3188417953"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "Cilindro": {
+      "Id": 4,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-01-30T09:34:30.2574257-05:00",
+    "FechaRecibido": "2025-01-30T14:39:25.9785976-05:00",
+    "PesoFinal": 9860,
+    "Consumo": 520,
+    "Total": 33800,
+    "estado": "devuelto",
+    "ClienteInfo": "709 - JORGE PRADA - KEVIN RAMOS - 1 R22  - 9860",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 911,
+    "Cliente": {
+      "Id": 26,
+      "Nombre": "ALFONSO REALES ",
+      "Telefono": "3145687903"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 7,
+      "NumeroCilindro": "7",
+      "Tipo": "R134",
+      "Estado": null,
+      "PesoInicial": 16045,
+      "PrecioPorGramo": 45,
+      "ClienteInfo": "7 - R134"
+    },
+    "Fecha": "2025-01-30T10:12:07.3947527-05:00",
+    "FechaRecibido": "2025-01-31T07:25:46.1548974-05:00",
+    "PesoFinal": 13550,
+    "Consumo": 2240,
+    "Total": 100800,
+    "estado": "devuelto",
+    "ClienteInfo": "911 - ALFONSO REALES  - JUNIOR REALES - 7 R134  - 13550",
+    "CilindroInfo": "7 R134"
+  },
+  {
+    "Id": 129,
+    "Cliente": {
+      "Id": 25,
+      "Nombre": "EDWIN TICORA",
+      "Telefono": "3147332126"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-01-30T13:03:28.7598177-05:00",
+    "FechaRecibido": "2025-01-30T13:25:23.1462066-05:00",
+    "PesoFinal": 13120,
+    "Consumo": 145,
+    "Total": 7975,
+    "estado": "devuelto",
+    "ClienteInfo": "129 - EDWIN TICORA - MELKY TOBIAS - 18 R410  - 13120",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 175,
+    "Cliente": {
+      "Id": 3,
+      "Nombre": "LUIS MONTIRA",
+      "Telefono": "3206235532"
+    },
+    "Vendedor": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "VendedorRecibe": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-30T13:37:39.7418681-05:00",
+    "FechaRecibido": "2025-01-30T15:19:36.6240188-05:00",
+    "PesoFinal": 7805,
+    "Consumo": 280,
+    "Total": 18200,
+    "estado": "devuelto",
+    "ClienteInfo": "175 - LUIS MONTIRA - ALVARO MARIN - 8 R22  - 7805",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 898,
+    "Cliente": {
+      "Id": 27,
+      "Nombre": "HENRY IGLESIA",
+      "Telefono": "3168869690"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 3,
+      "Nombre": "ANDRES BARRAZA"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-31T09:18:56.6739123-05:00",
+    "FechaRecibido": "2025-01-31T10:13:35.8864236-05:00",
+    "PesoFinal": 7270,
+    "Consumo": 540,
+    "Total": 35100,
+    "estado": "devuelto",
+    "ClienteInfo": "898 - HENRY IGLESIA - MELKY TOBIAS - 8 R22  - 7270",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 682,
+    "Cliente": {
+      "Id": 28,
+      "Nombre": "LUIS HERNANDEZ",
+      "Telefono": "3116756835"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-01-31T10:17:00.8213361-05:00",
+    "FechaRecibido": "2025-01-31T11:34:27.402729-05:00",
+    "PesoFinal": 7180,
+    "Consumo": 90,
+    "Total": 5850,
+    "estado": "devuelto",
+    "ClienteInfo": "682 - LUIS HERNANDEZ - KEVIN RAMOS - 8 R22  - 7180",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 136,
+    "Cliente": {
+      "Id": 19,
+      "Nombre": "MANUEL VILLAMISAR",
+      "Telefono": "33146403725"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 5,
+      "NumeroCilindro": "10",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 4610,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "10 - R410"
+    },
+    "Fecha": "2025-01-31T18:04:11.3281458-05:00",
+    "FechaRecibido": "2025-02-05T12:24:58.4122529-05:00",
+    "PesoFinal": 4355,
+    "Consumo": 65,
+    "Total": 3575,
+    "estado": "devuelto",
+    "ClienteInfo": "136 - MANUEL VILLAMISAR - MELKY TOBIAS - 10 R410  - 4355",
+    "CilindroInfo": "10 R410"
+  },
+  {
+    "Id": 832,
+    "Cliente": {
+      "Id": 16,
+      "Nombre": "JORGE PRADA",
+      "Telefono": "3188417953"
+    },
+    "Vendedor": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-02T09:51:19.9942926-05:00",
+    "FechaRecibido": "2025-02-03T13:53:21.5102951-05:00",
+    "PesoFinal": 11870,
+    "Consumo": 1215,
+    "Total": 66825,
+    "estado": "devuelto",
+    "ClienteInfo": "832 - JORGE PRADA - ALVARO MARIN - 18 R410  - 11870",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 651,
+    "Cliente": {
+      "Id": 29,
+      "Nombre": "ALBERTO MACHADO",
+      "Telefono": "3116576310"
+    },
+    "Vendedor": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-02-03T08:37:06.8872601-05:00",
+    "FechaRecibido": "2025-02-03T09:35:12.3269869-05:00",
+    "PesoFinal": 7025,
+    "Consumo": 130,
+    "Total": 8450,
+    "estado": "devuelto",
+    "ClienteInfo": "651 - ALBERTO MACHADO - LEONARDO MOLINA - 8 R22  - 7025",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 454,
+    "Cliente": {
+      "Id": 30,
+      "Nombre": "JOSE OLIVELLA",
+      "Telefono": "3107036862"
+    },
+    "Vendedor": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-02-03T12:41:42.3682771-05:00",
+    "FechaRecibido": "2025-02-04T13:37:16.902844-05:00",
+    "PesoFinal": 7010,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "devuelto",
+    "ClienteInfo": "454 - JOSE OLIVELLA - IVAN TOBIAS - 8 R22  - 7010",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 835,
+    "Cliente": {
+      "Id": 23,
+      "Nombre": "HUGUES TONCEL ",
+      "Telefono": "3128194318"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 4,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-03T12:50:39.448893-05:00",
+    "FechaRecibido": "2025-02-03T14:06:09.8934919-05:00",
+    "PesoFinal": 9760,
+    "Consumo": 70,
+    "Total": 4550,
+    "estado": "devuelto",
+    "ClienteInfo": "835 - HUGUES TONCEL  - DIEGO TOBIAS - 1 R22  - 9760",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 224,
+    "Cliente": {
+      "Id": 31,
+      "Nombre": "Hernando Robayo",
+      "Telefono": "3206402833"
+    },
+    "Vendedor": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "VendedorRecibe": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-03T14:39:32.8188362-05:00",
+    "FechaRecibido": "2025-02-04T14:37:42.4590655-05:00",
+    "PesoFinal": 11580,
+    "Consumo": 290,
+    "Total": 15950,
+    "estado": "devuelto",
+    "ClienteInfo": "224 - Hernando Robayo - LEONARDO MOLINA - 18 R410  - 11580",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 783,
+    "Cliente": {
+      "Id": 32,
+      "Nombre": "ALBERTO ARIZA ",
+      "Telefono": "3135743845"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-03T16:21:58.0552306-05:00",
+    "FechaRecibido": "2025-02-04T10:58:18.0640894-05:00",
+    "PesoFinal": 14365,
+    "Consumo": 380,
+    "Total": 20900,
+    "estado": "devuelto",
+    "ClienteInfo": "783 - ALBERTO ARIZA  - DIEGO TOBIAS - 23 R410  - 14365",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 271,
+    "Cliente": {
+      "Id": 25,
+      "Nombre": "EDWIN TICORA",
+      "Telefono": "3147332126"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-03T16:32:04.627238-05:00",
+    "FechaRecibido": "2025-02-03T17:31:49.6905328-05:00",
+    "PesoFinal": 14480,
+    "Consumo": 260,
+    "Total": 14300,
+    "estado": "devuelto",
+    "ClienteInfo": "271 - EDWIN TICORA - JUNIOR REALES - 7 R410  - 14480",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 527,
+    "Cliente": {
+      "Id": 33,
+      "Nombre": "ELKIN PAYARES",
+      "Telefono": "3114079253"
+    },
+    "Vendedor": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "VendedorRecibe": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-04T11:41:50.7341743-05:00",
+    "FechaRecibido": "2025-02-04T12:07:17.0289992-05:00",
+    "PesoFinal": 13905,
+    "Consumo": 460,
+    "Total": 25300,
+    "estado": "devuelto",
+    "ClienteInfo": "527 - ELKIN PAYARES - LEONARDO MOLINA - 23 R410  - 13905",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 379,
+    "Cliente": {
+      "Id": 3,
+      "Nombre": "LUIS MONTIRA",
+      "Telefono": "3206235532"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-04T11:48:10.6001357-05:00",
+    "FechaRecibido": "2025-02-04T18:06:48.1110512-05:00",
+    "PesoFinal": 14250,
+    "Consumo": 230,
+    "Total": 12650,
+    "estado": "devuelto",
+    "ClienteInfo": "379 - LUIS MONTIRA - MELKY TOBIAS - 7 R410  - 14250",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 209,
+    "Cliente": {
+      "Id": 18,
+      "Nombre": "MARLON RUIZ ",
+      "Telefono": "3145891662"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-04T16:32:53.139935-05:00",
+    "FechaRecibido": "2025-02-04T17:05:13.6823761-05:00",
+    "PesoFinal": 11520,
+    "Consumo": 55,
+    "Total": 3025,
+    "estado": "devuelto",
+    "ClienteInfo": "209 - MARLON RUIZ  - KEVIN RAMOS - 18 R410  - 11520",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 788,
+    "Cliente": {
+      "Id": 22,
+      "Nombre": "GALAN ",
+      "Telefono": "3142515456"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-04T17:31:24.2294014-05:00",
+    "FechaRecibido": "2025-02-04T17:51:42.4236818-05:00",
+    "PesoFinal": 11320,
+    "Consumo": 200,
+    "Total": 11000,
+    "estado": "devuelto",
+    "ClienteInfo": "788 - GALAN  - KEVIN RAMOS - 18 R410  - 11320",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 164,
+    "Cliente": {
+      "Id": 16,
+      "Nombre": "JORGE PRADA",
+      "Telefono": "3188417953"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-05T11:33:03.7913441-05:00",
+    "FechaRecibido": "2025-02-05T12:09:46.0615174-05:00",
+    "PesoFinal": 11210,
+    "Consumo": 110,
+    "Total": 6050,
+    "estado": "devuelto",
+    "ClienteInfo": "164 - JORGE PRADA - DIEGO TOBIAS - 18 R410  - 11210",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 448,
+    "Cliente": {
+      "Id": 34,
+      "Nombre": "CARLOS MIRANDA ",
+      "Telefono": "3103629465"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-05T16:29:21.2610652-05:00",
+    "FechaRecibido": "2025-02-05T17:21:18.458691-05:00",
+    "PesoFinal": 10780,
+    "Consumo": 430,
+    "Total": 23650,
+    "estado": "devuelto",
+    "ClienteInfo": "448 - CARLOS MIRANDA  - DIEGO TOBIAS - 18 R410  - 10780",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 193,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-05T16:31:49.1485349-05:00",
+    "FechaRecibido": "2025-02-05T17:07:25.7737157-05:00",
+    "PesoFinal": 14135,
+    "Consumo": 120,
+    "Total": 6600,
+    "estado": "devuelto",
+    "ClienteInfo": "193 - JADER VILORIA  - JUNIOR REALES - 7 R410  - 14135",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 114,
+    "Cliente": {
+      "Id": 35,
+      "Nombre": "hernando robayo",
+      "Telefono": "3206402833"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-02-06T07:40:49.192138-05:00",
+    "FechaRecibido": "2025-02-06T15:56:26.636291-05:00",
+    "PesoFinal": 6960,
+    "Consumo": 50,
+    "Total": 3250,
+    "estado": "devuelto",
+    "ClienteInfo": "114 - hernando robayo - JUNIOR REALES - 8 R22  - 6960",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 953,
+    "Cliente": {
+      "Id": 15,
+      "Nombre": "MEMIN",
+      "Telefono": "3113279731"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-06T07:43:55.7676241-05:00",
+    "FechaRecibido": "2025-02-06T08:07:39.8154951-05:00",
+    "PesoFinal": 10590,
+    "Consumo": 190,
+    "Total": 10450,
+    "estado": "devuelto",
+    "ClienteInfo": "953 - MEMIN - DIEGO TOBIAS - 18 R410  - 10590",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 323,
+    "Cliente": {
+      "Id": 36,
+      "Nombre": "JAIDER ALVEAR",
+      "Telefono": "3203317229"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-06T08:12:50.4273401-05:00",
+    "FechaRecibido": "2025-02-06T08:37:42.8268314-05:00",
+    "PesoFinal": 10445,
+    "Consumo": 145,
+    "Total": 7975,
+    "estado": "devuelto",
+    "ClienteInfo": "323 - JAIDER ALVEAR - DIEGO TOBIAS - 18 R410  - 10445",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 163,
+    "Cliente": {
+      "Id": 32,
+      "Nombre": "ALBERTO ARIZA",
+      "Telefono": "3135743845"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-06T09:09:48.0345237-05:00",
+    "FechaRecibido": "2025-02-06T15:58:23.8006192-05:00",
+    "PesoFinal": 9730,
+    "Consumo": 715,
+    "Total": 39325,
+    "estado": "devuelto",
+    "ClienteInfo": "163 - ALBERTO ARIZA - JUNIOR REALES - 18 R410  - 9730",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 489,
+    "Cliente": {
+      "Id": 37,
+      "Nombre": "IVER EL POLLO ",
+      "Telefono": "3215251197"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-06T11:04:20.8704347-05:00",
+    "FechaRecibido": "2025-02-06T11:19:48.5869711-05:00",
+    "PesoFinal": 9570,
+    "Consumo": 180,
+    "Total": 11700,
+    "estado": "devuelto",
+    "ClienteInfo": "489 - IVER EL POLLO  - MELKY TOBIAS - 1 R22  - 9570",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 739,
+    "Cliente": {
+      "Id": 3,
+      "Nombre": "LUIS MONTIRA",
+      "Telefono": "3206235532"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-06T15:59:16.647986-05:00",
+    "FechaRecibido": "2025-02-10T13:19:19.4579156-05:00",
+    "PesoFinal": 8585,
+    "Consumo": 1145,
+    "Total": 62975,
+    "estado": "devuelto",
+    "ClienteInfo": "739 - LUIS MONTIRA - MELKY TOBIAS - 18 R410  - 8585",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 876,
+    "Cliente": {
+      "Id": 32,
+      "Nombre": "ALBERTO ARIZA ",
+      "Telefono": "3135743845"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-02-06T16:00:00.6310273-05:00",
+    "FechaRecibido": "2025-02-06T16:34:38.8823565-05:00",
+    "PesoFinal": 6595,
+    "Consumo": 365,
+    "Total": 23725,
+    "estado": "devuelto",
+    "ClienteInfo": "876 - ALBERTO ARIZA  - MELKY TOBIAS - 8 R22  - 6595",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 553,
+    "Cliente": {
+      "Id": 37,
+      "Nombre": "javier alvear",
+      "Telefono": "3206317229"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-07T10:33:09.7783497-05:00",
+    "FechaRecibido": "2025-02-07T11:10:42.206318-05:00",
+    "PesoFinal": 9405,
+    "Consumo": 155,
+    "Total": 10075,
+    "estado": "devuelto",
+    "ClienteInfo": "553 - javier alvear - KEVIN RAMOS - 1 R22  - 9405",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 145,
+    "Cliente": {
+      "Id": 22,
+      "Nombre": "GALAN ",
+      "Telefono": "3142515456"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-07T10:43:00.9488495-05:00",
+    "FechaRecibido": "2025-02-07T14:20:36.5622584-05:00",
+    "PesoFinal": 13965,
+    "Consumo": 165,
+    "Total": 9075,
+    "estado": "devuelto",
+    "ClienteInfo": "145 - GALAN  - JUNIOR REALES - 7 R410  - 13965",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 513,
+    "Cliente": {
+      "Id": 38,
+      "Nombre": "ALEX GUERRERO",
+      "Telefono": "3226368464"
+    },
+    "Vendedor": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "VendedorRecibe": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-07T13:22:55.9726181-05:00",
+    "FechaRecibido": "2025-02-07T13:36:12.6360716-05:00",
+    "PesoFinal": 13685,
+    "Consumo": 215,
+    "Total": 11825,
+    "estado": "devuelto",
+    "ClienteInfo": "513 - ALEX GUERRERO - ALVARO MARIN - 23 R410  - 13685",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 328,
+    "Cliente": {
+      "Id": 22,
+      "Nombre": "GALAN ",
+      "Telefono": "3142515456"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-07T14:21:10.5293473-05:00",
+    "FechaRecibido": "2025-02-08T10:16:23.1964289-05:00",
+    "PesoFinal": 13860,
+    "Consumo": 105,
+    "Total": 5775,
+    "estado": "devuelto",
+    "ClienteInfo": "328 - GALAN  - JUNIOR REALES - 7 R410  - 13860",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 197,
+    "Cliente": {
+      "Id": 9,
+      "Nombre": "JAVIER RAMBAL ",
+      "Telefono": "3016862515"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-07T15:11:25.3200278-05:00",
+    "FechaRecibido": "2025-02-07T15:54:41.3301152-05:00",
+    "PesoFinal": 9265,
+    "Consumo": 145,
+    "Total": 9425,
+    "estado": "devuelto",
+    "ClienteInfo": "197 - JAVIER RAMBAL  - MELKY TOBIAS - 1 R22  - 9265",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 153,
+    "Cliente": {
+      "Id": 9,
+      "Nombre": "JAVIER RAMBAL ",
+      "Telefono": "3016862515"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-07T15:12:09.3056344-05:00",
+    "FechaRecibido": "2025-02-07T15:55:20.4953239-05:00",
+    "PesoFinal": 13100,
+    "Consumo": 585,
+    "Total": 32175,
+    "estado": "devuelto",
+    "ClienteInfo": "153 - JAVIER RAMBAL  - MELKY TOBIAS - 23 R410  - 13100",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 768,
+    "Cliente": {
+      "Id": 16,
+      "Nombre": "JORGE PRADA",
+      "Telefono": "3188417953"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-07T16:43:05.550028-05:00",
+    "FechaRecibido": "2025-02-07T18:14:57.6583136-05:00",
+    "PesoFinal": 12965,
+    "Consumo": 145,
+    "Total": 7975,
+    "estado": "devuelto",
+    "ClienteInfo": "768 - JORGE PRADA - KEVIN RAMOS - 23 R410  - 12965",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 353,
+    "Cliente": {
+      "Id": 39,
+      "Nombre": "tomas mindiola",
+      "Telefono": "3145037571"
+    },
+    "Vendedor": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-08T07:52:49.7212054-05:00",
+    "FechaRecibido": "2025-02-08T09:20:05.1513601-05:00",
+    "PesoFinal": 12175,
+    "Consumo": 785,
+    "Total": 43175,
+    "estado": "devuelto",
+    "ClienteInfo": "353 - tomas mindiola - ALVARO MARIN - 23 R410  - 12175",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 130,
+    "Cliente": {
+      "Id": 22,
+      "Nombre": "GALAN ",
+      "Telefono": "3142515456"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-08T10:17:29.9950524-05:00",
+    "FechaRecibido": "2025-02-11T14:20:08.6049504-05:00",
+    "PesoFinal": 11115,
+    "Consumo": 2745,
+    "Total": 150975,
+    "estado": "devuelto",
+    "ClienteInfo": "130 - GALAN  - JUNIOR REALES - 7 R410  - 11115",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 925,
+    "Cliente": {
+      "Id": 36,
+      "Nombre": "JAIDER ALVEAR",
+      "Telefono": "3203317229"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-08T10:30:45.7294919-05:00",
+    "FechaRecibido": "2025-02-08T10:55:28.7951295-05:00",
+    "PesoFinal": 12040,
+    "Consumo": 135,
+    "Total": 7425,
+    "estado": "devuelto",
+    "ClienteInfo": "925 - JAIDER ALVEAR - DIEGO TOBIAS - 23 R410  - 12040",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 994,
+    "Cliente": {
+      "Id": 33,
+      "Nombre": "ELKIN PAYARES",
+      "Telefono": "3114079253"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-08T11:15:31.8179133-05:00",
+    "FechaRecibido": "2025-02-08T12:23:57.2886123-05:00",
+    "PesoFinal": 11925,
+    "Consumo": 105,
+    "Total": 5775,
+    "estado": "devuelto",
+    "ClienteInfo": "994 - ELKIN PAYARES - DIEGO TOBIAS - 23 R410  - 11925",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 373,
+    "Cliente": {
+      "Id": 40,
+      "Nombre": "HEINER MENDEZ",
+      "Telefono": "3126275316"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-08T12:58:41.2175432-05:00",
+    "FechaRecibido": "2025-02-08T13:18:20.3980893-05:00",
+    "PesoFinal": 9040,
+    "Consumo": 225,
+    "Total": 14625,
+    "estado": "devuelto",
+    "ClienteInfo": "373 - HEINER MENDEZ - MELKY TOBIAS - 1 R22  - 9040",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 423,
+    "Cliente": {
+      "Id": 40,
+      "Nombre": "HEINER MENDEZ",
+      "Telefono": "3126275316"
+    },
+    "Vendedor": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-08T14:03:25.3734215-05:00",
+    "FechaRecibido": "2025-02-08T15:13:16.460591-05:00",
+    "PesoFinal": 11730,
+    "Consumo": 195,
+    "Total": 10725,
+    "estado": "devuelto",
+    "ClienteInfo": "423 - HEINER MENDEZ - IVAN TOBIAS - 23 R410  - 11730",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 610,
+    "Cliente": {
+      "Id": 30,
+      "Nombre": "JOSE OLIVELLA",
+      "Telefono": "3107036862"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-09T10:10:13.1110088-05:00",
+    "FechaRecibido": "2025-02-09T12:04:24.7817422-05:00",
+    "PesoFinal": 11570,
+    "Consumo": 160,
+    "Total": 8800,
+    "estado": "devuelto",
+    "ClienteInfo": "610 - JOSE OLIVELLA - DIEGO TOBIAS - 23 R410  - 11570",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 194,
+    "Cliente": {
+      "Id": 31,
+      "Nombre": "HERNANDO ROBAYO",
+      "Telefono": "3206402833"
+    },
+    "Vendedor": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "VendedorRecibe": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-09T11:05:36.9250292-05:00",
+    "FechaRecibido": "2025-02-09T11:35:53.5131332-05:00",
+    "PesoFinal": 8755,
+    "Consumo": 275,
+    "Total": 17875,
+    "estado": "devuelto",
+    "ClienteInfo": "194 - HERNANDO ROBAYO - LEONARDO MOLINA - 1 R22  - 8755",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 265,
+    "Cliente": {
+      "Id": 40,
+      "Nombre": "HEINER MENDEZ",
+      "Telefono": "3126275316"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-10T08:45:12.3148617-05:00",
+    "FechaRecibido": "2025-02-10T09:34:22.8232756-05:00",
+    "PesoFinal": 11100,
+    "Consumo": 470,
+    "Total": 25850,
+    "estado": "devuelto",
+    "ClienteInfo": "265 - HEINER MENDEZ - KEVIN RAMOS - 23 R410  - 11100",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 349,
+    "Cliente": {
+      "Id": 40,
+      "Nombre": "HEINER MENDEZ",
+      "Telefono": "3126275316"
+    },
+    "Vendedor": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-10T09:49:16.0322881-05:00",
+    "FechaRecibido": "2025-02-10T10:28:26.892756-05:00",
+    "PesoFinal": 10870,
+    "Consumo": 225,
+    "Total": 12375,
+    "estado": "devuelto",
+    "ClienteInfo": "349 - HEINER MENDEZ - LEONARDO MOLINA - 23 R410  - 10870",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 589,
+    "Cliente": {
+      "Id": 40,
+      "Nombre": "HEINER MENDEZ",
+      "Telefono": "3126275316"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-10T10:33:59.7958982-05:00",
+    "FechaRecibido": "2025-02-10T11:24:22.0008057-05:00",
+    "PesoFinal": 8370,
+    "Consumo": 390,
+    "Total": 25350,
+    "estado": "devuelto",
+    "ClienteInfo": "589 - HEINER MENDEZ - DIEGO TOBIAS - 1 R22  - 8370",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 910,
+    "Cliente": {
+      "Id": 42,
+      "Nombre": "JORGE CARVAJAL",
+      "Telefono": "3137490282"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-10T10:44:04.8787394-05:00",
+    "FechaRecibido": "2025-02-10T11:29:15.0806634-05:00",
+    "PesoFinal": 10075,
+    "Consumo": 790,
+    "Total": 43450,
+    "estado": "devuelto",
+    "ClienteInfo": "910 - JORGE CARVAJAL - DIEGO TOBIAS - 23 R410  - 10075",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 462,
+    "Cliente": {
+      "Id": 43,
+      "Nombre": "JADER RUIZ GALLO ",
+      "Telefono": "3216120703"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-10T16:00:01.1129072-05:00",
+    "FechaRecibido": "2025-02-10T17:49:55.0494374-05:00",
+    "PesoFinal": 8585,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "devuelto",
+    "ClienteInfo": "462 - JADER RUIZ GALLO  - DIEGO TOBIAS - 23 R410  - 8585",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 173,
+    "Cliente": {
+      "Id": 24,
+      "Nombre": "CAMILO VILORIA",
+      "Telefono": "3147059451"
+    },
+    "Vendedor": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-02-11T08:29:34.9549603-05:00",
+    "FechaRecibido": "2025-02-11T10:44:52.0289341-05:00",
+    "PesoFinal": 5775,
+    "Consumo": 730,
+    "Total": 47450,
+    "estado": "devuelto",
+    "ClienteInfo": "173 - CAMILO VILORIA - ALVARO MARIN - 8 R22  - 5775",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 531,
+    "Cliente": {
+      "Id": 16,
+      "Nombre": "JORGE PRADA",
+      "Telefono": "3188417953"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-11T10:50:37.0402474-05:00",
+    "FechaRecibido": "2025-02-11T12:06:22.7999955-05:00",
+    "PesoFinal": 8585,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "devuelto",
+    "ClienteInfo": "531 - JORGE PRADA - DIEGO TOBIAS - 18 R410  - 8585",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 610,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-11T12:37:10.9678036-05:00",
+    "FechaRecibido": "2025-02-11T16:18:16.9506433-05:00",
+    "PesoFinal": 7680,
+    "Consumo": 905,
+    "Total": 49775,
+    "estado": "devuelto",
+    "ClienteInfo": "610 - JADER VILORIA  - KEVIN RAMOS - 18 R410  - 7680",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 236,
+    "Cliente": {
+      "Id": 44,
+      "Nombre": "REFRI DAZA",
+      "Telefono": "3114149791"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-11T15:00:43.4024227-05:00",
+    "FechaRecibido": "2025-02-11T15:33:05.8676527-05:00",
+    "PesoFinal": 11115,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "devuelto",
+    "ClienteInfo": "236 - REFRI DAZA - DIEGO TOBIAS - 7 R410  - 11115",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 431,
+    "Cliente": {
+      "Id": 15,
+      "Nombre": "MEMIN",
+      "Telefono": "3113279731"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-11T16:56:36.5076548-05:00",
+    "FechaRecibido": "2025-02-12T08:02:29.0304694-05:00",
+    "PesoFinal": 9820,
+    "Consumo": 265,
+    "Total": 14575,
+    "estado": "devuelto",
+    "ClienteInfo": "431 - MEMIN - DIEGO TOBIAS - 23 R410  - 9820",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 548,
+    "Cliente": {
+      "Id": 20,
+      "Nombre": "JESUS MARTINEZ ",
+      "Telefono": "3208193840"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-12T09:07:32.0643891-05:00",
+    "FechaRecibido": "2025-02-12T09:46:01.9049793-05:00",
+    "PesoFinal": 8325,
+    "Consumo": 45,
+    "Total": 2925,
+    "estado": "devuelto",
+    "ClienteInfo": "548 - JESUS MARTINEZ  - MELKY TOBIAS - 1 R22  - 8325",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 284,
+    "Cliente": {
+      "Id": 8,
+      "Nombre": "HERMES GUTIERREZ",
+      "Telefono": "3216732450"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-12T17:23:06.065202-05:00",
+    "FechaRecibido": "2025-02-12T18:33:57.6494274-05:00",
+    "PesoFinal": 8015,
+    "Consumo": 305,
+    "Total": 19825,
+    "estado": "devuelto",
+    "ClienteInfo": "284 - HERMES GUTIERREZ - KEVIN RAMOS - 1 R22  - 8015",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 898,
+    "Cliente": {
+      "Id": 30,
+      "Nombre": "JOSE OLIVELLA",
+      "Telefono": "3107036862"
+    },
+    "Vendedor": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-12T17:57:22.771363-05:00",
+    "FechaRecibido": "2025-02-13T10:21:55.0137384-05:00",
+    "PesoFinal": 7390,
+    "Consumo": 295,
+    "Total": 16225,
+    "estado": "devuelto",
+    "ClienteInfo": "898 - JOSE OLIVELLA - LEONARDO MOLINA - 18 R410  - 7390",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 673,
+    "Cliente": {
+      "Id": 30,
+      "Nombre": "JOSE OLIVELLA",
+      "Telefono": "3107036862"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-13T10:24:54.7205344-05:00",
+    "FechaRecibido": "2025-02-13T10:54:05.7843242-05:00",
+    "PesoFinal": 8015,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "devuelto",
+    "ClienteInfo": "673 - JOSE OLIVELLA - KEVIN RAMOS - 1 R22  - 8015",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 143,
+    "Cliente": {
+      "Id": 1,
+      "Nombre": "NICOLAS FONTALVO",
+      "Telefono": "3146725750"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-13T10:57:57.6048323-05:00",
+    "FechaRecibido": "2025-02-13T12:52:24.3313903-05:00",
+    "PesoFinal": 7110,
+    "Consumo": 285,
+    "Total": 15675,
+    "estado": "devuelto",
+    "ClienteInfo": "143 - NICOLAS FONTALVO - DIEGO TOBIAS - 18 R410  - 7110",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 771,
+    "Cliente": {
+      "Id": 45,
+      "Nombre": "RAFAEL SALAS",
+      "Telefono": "3217461081"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-13T11:19:57.4291847-05:00",
+    "FechaRecibido": "2025-02-13T12:27:43.9638419-05:00",
+    "PesoFinal": 7880,
+    "Consumo": 135,
+    "Total": 8775,
+    "estado": "devuelto",
+    "ClienteInfo": "771 - RAFAEL SALAS - KEVIN RAMOS - 1 R22  - 7880",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 712,
+    "Cliente": {
+      "Id": 46,
+      "Nombre": "DEIVER LOBO",
+      "Telefono": "3113465467"
+    },
+    "Vendedor": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-13T13:43:54.64037-05:00",
+    "FechaRecibido": "2025-02-14T07:42:27.8837422-05:00",
+    "PesoFinal": 7355,
+    "Consumo": 525,
+    "Total": 34125,
+    "estado": "devuelto",
+    "ClienteInfo": "712 - DEIVER LOBO - ALVARO MARIN - 1 R22  - 7355",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 965,
+    "Cliente": {
+      "Id": 47,
+      "Nombre": "ANDRES AGUDELO",
+      "Telefono": "3148856046"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-13T14:33:59.7122049-05:00",
+    "FechaRecibido": "2025-02-13T15:09:29.0810107-05:00",
+    "PesoFinal": 6460,
+    "Consumo": 650,
+    "Total": 35750,
+    "estado": "devuelto",
+    "ClienteInfo": "965 - ANDRES AGUDELO - DIEGO TOBIAS - 18 R410  - 6460",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 859,
+    "Cliente": {
+      "Id": 4,
+      "Nombre": "WALTER SEPULVEDA",
+      "Telefono": "3234574519"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-13T15:34:30.7588245-05:00",
+    "FechaRecibido": "2025-02-13T17:54:14.8698226-05:00",
+    "PesoFinal": 6260,
+    "Consumo": 200,
+    "Total": 11000,
+    "estado": "devuelto",
+    "ClienteInfo": "859 - WALTER SEPULVEDA - KEVIN RAMOS - 18 R410  - 6260",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 131,
+    "Cliente": {
+      "Id": 20,
+      "Nombre": "JESUS MARTINEZ ",
+      "Telefono": "3208193840"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 10,
+      "NumeroCilindro": "2",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16010,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "2 - R22"
+    },
+    "Fecha": "2025-02-13T16:09:30.6124116-05:00",
+    "FechaRecibido": "2025-02-13T18:12:05.9419591-05:00",
+    "PesoFinal": 15515,
+    "Consumo": 495,
+    "Total": 32175,
+    "estado": "devuelto",
+    "ClienteInfo": "131 - JESUS MARTINEZ  - KEVIN RAMOS - 2 R22  - 15515",
+    "CilindroInfo": "2 R22"
+  },
+  {
+    "Id": 776,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-13T16:40:51.2540135-05:00",
+    "FechaRecibido": "2025-02-13T16:41:36.6635144-05:00",
+    "PesoFinal": 1115,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "devuelto",
+    "ClienteInfo": "776 - JADER VILORIA  - DIEGO TOBIAS - 7 R410  - 1115",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 958,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-13T16:42:09.1510081-05:00",
+    "FechaRecibido": "2025-02-13T17:38:37.7186073-05:00",
+    "PesoFinal": 10835,
+    "Consumo": 280,
+    "Total": 15400,
+    "estado": "devuelto",
+    "ClienteInfo": "958 - JADER VILORIA  - DIEGO TOBIAS - 7 R410  - 10835",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 734,
+    "Cliente": {
+      "Id": 22,
+      "Nombre": "GALAN ",
+      "Telefono": "3142515456"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-13T16:43:53.2618444-05:00",
+    "FechaRecibido": "2025-02-13T16:54:35.6473577-05:00",
+    "PesoFinal": 9740,
+    "Consumo": 75,
+    "Total": 4125,
+    "estado": "devuelto",
+    "ClienteInfo": "734 - GALAN  - DIEGO TOBIAS - 23 R410  - 9740",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 231,
+    "Cliente": {
+      "Id": 19,
+      "Nombre": "MANUEL VILLAMISAR",
+      "Telefono": "33146403725"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-14T12:27:38.1843689-05:00",
+    "FechaRecibido": "2025-02-14T14:54:14.7059124-05:00",
+    "PesoFinal": 9620,
+    "Consumo": 110,
+    "Total": 6050,
+    "estado": "devuelto",
+    "ClienteInfo": "231 - MANUEL VILLAMISAR - DIEGO TOBIAS - 23 R410  - 9620",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 362,
+    "Cliente": {
+      "Id": 26,
+      "Nombre": "ALFONSO REALES ",
+      "Telefono": "3145687903"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-14T14:32:57.5526627-05:00",
+    "FechaRecibido": "2025-02-14T16:20:01.4938832-05:00",
+    "PesoFinal": 5850,
+    "Consumo": 410,
+    "Total": 22550,
+    "estado": "devuelto",
+    "ClienteInfo": "362 - ALFONSO REALES  - KEVIN RAMOS - 18 R410  - 5850",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 354,
+    "Cliente": {
+      "Id": 37,
+      "Nombre": "IVER EL POLLO ",
+      "Telefono": "3215251197"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-14T15:39:41.6730954-05:00",
+    "FechaRecibido": "2025-02-14T16:03:45.0149247-05:00",
+    "PesoFinal": 9555,
+    "Consumo": 65,
+    "Total": 3575,
+    "estado": "devuelto",
+    "ClienteInfo": "354 - IVER EL POLLO  - JUNIOR REALES - 23 R410  - 9555",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 186,
+    "Cliente": {
+      "Id": 48,
+      "Nombre": "ERICK ESTRADA",
+      "Telefono": "3227285937"
+    },
+    "Vendedor": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-14T16:09:24.3570453-05:00",
+    "FechaRecibido": "2025-02-14T16:34:30.6206329-05:00",
+    "PesoFinal": 9185,
+    "Consumo": 365,
+    "Total": 20075,
+    "estado": "devuelto",
+    "ClienteInfo": "186 - ERICK ESTRADA - LEONARDO MOLINA - 23 R410  - 9185",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 940,
+    "Cliente": {
+      "Id": 47,
+      "Nombre": "ANDRES AGUDELO",
+      "Telefono": "3148856046"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-14T16:47:34.6976983-05:00",
+    "FechaRecibido": "2025-02-14T17:02:54.3328128-05:00",
+    "PesoFinal": 5705,
+    "Consumo": 145,
+    "Total": 7975,
+    "estado": "devuelto",
+    "ClienteInfo": "940 - ANDRES AGUDELO - MELKY TOBIAS - 18 R410  - 5705",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 609,
+    "Cliente": {
+      "Id": 3,
+      "Nombre": "LUIS MONTIRA",
+      "Telefono": "3206235532"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-14T17:31:56.403821-05:00",
+    "FechaRecibido": "2025-02-17T08:10:21.4259041-05:00",
+    "PesoFinal": 5640,
+    "Consumo": 75,
+    "Total": 4125,
+    "estado": "devuelto",
+    "ClienteInfo": "609 - LUIS MONTIRA - DIEGO TOBIAS - 18 R410  - 5640",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 647,
+    "Cliente": {
+      "Id": 13,
+      "Nombre": "LUIS LOBO",
+      "Telefono": "3001447674"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 10,
+      "NumeroCilindro": "2",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16010,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "2 - R22"
+    },
+    "Fecha": "2025-02-15T08:47:37.4700461-05:00",
+    "FechaRecibido": "2025-02-15T11:49:11.040186-05:00",
+    "PesoFinal": 14920,
+    "Consumo": 590,
+    "Total": 38350,
+    "estado": "devuelto",
+    "ClienteInfo": "647 - LUIS LOBO - JUNIOR REALES - 2 R22  - 14920",
+    "CilindroInfo": "2 R22"
+  },
+  {
+    "Id": 442,
+    "Cliente": {
+      "Id": 49,
+      "Nombre": "CRISTIAN DIAZ",
+      "Telefono": "3206312146"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-15T08:57:31.9368749-05:00",
+    "FechaRecibido": "2025-02-15T09:47:43.1411296-05:00",
+    "PesoFinal": 9150,
+    "Consumo": 40,
+    "Total": 2200,
+    "estado": "devuelto",
+    "ClienteInfo": "442 - CRISTIAN DIAZ - KEVIN RAMOS - 23 R410  - 9150",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 276,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-15T10:48:03.9809388-05:00",
+    "FechaRecibido": "2025-02-15T11:20:42.2246711-05:00",
+    "PesoFinal": 8370,
+    "Consumo": 780,
+    "Total": 42900,
+    "estado": "devuelto",
+    "ClienteInfo": "276 - JADER VILORIA  - DIEGO TOBIAS - 23 R410  - 8370",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 657,
+    "Cliente": {
+      "Id": 15,
+      "Nombre": "MEMIN",
+      "Telefono": "3113279731"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-15T13:49:23.5496236-05:00",
+    "FechaRecibido": "2025-02-15T16:30:33.2272603-05:00",
+    "PesoFinal": 10420,
+    "Consumo": 415,
+    "Total": 22825,
+    "estado": "devuelto",
+    "ClienteInfo": "657 - MEMIN - DIEGO TOBIAS - 7 R410  - 10420",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 129,
+    "Cliente": {
+      "Id": 31,
+      "Nombre": "HERNANDO ROBAYO",
+      "Telefono": "3206402833"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-16T08:53:20.6629309-05:00",
+    "FechaRecibido": "2025-02-16T09:12:13.4170108-05:00",
+    "PesoFinal": 7295,
+    "Consumo": 65,
+    "Total": 4225,
+    "estado": "devuelto",
+    "ClienteInfo": "129 - HERNANDO ROBAYO - JUNIOR REALES - 1 R22  - 7295",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 797,
+    "Cliente": {
+      "Id": 48,
+      "Nombre": "ERICK ESTRADA",
+      "Telefono": "3227285937"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-16T09:27:47.2641588-05:00",
+    "FechaRecibido": "2025-02-16T10:29:51.6158128-05:00",
+    "PesoFinal": 9780,
+    "Consumo": 640,
+    "Total": 35200,
+    "estado": "devuelto",
+    "ClienteInfo": "797 - ERICK ESTRADA - JUNIOR REALES - 7 R410  - 9780",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 436,
+    "Cliente": {
+      "Id": 25,
+      "Nombre": "EDWIN TICORA",
+      "Telefono": "3147332126"
+    },
+    "Vendedor": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 11,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 5280,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-02-17T09:41:26.9790107-05:00",
+    "FechaRecibido": "2025-02-17T11:39:44.771101-05:00",
+    "PesoFinal": 4945,
+    "Consumo": 335,
+    "Total": 21775,
+    "estado": "devuelto",
+    "ClienteInfo": "436 - EDWIN TICORA - ALVARO MARIN - 8 R22  - 4945",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 191,
+    "Cliente": {
+      "Id": 39,
+      "Nombre": "tomas mindiola",
+      "Telefono": "3145037571"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-17T10:47:05.0840241-05:00",
+    "FechaRecibido": "2025-02-17T11:56:41.0253613-05:00",
+    "PesoFinal": 6670,
+    "Consumo": 625,
+    "Total": 40625,
+    "estado": "devuelto",
+    "ClienteInfo": "191 - tomas mindiola - MELKY TOBIAS - 1 R22  - 6670",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 349,
+    "Cliente": {
+      "Id": 19,
+      "Nombre": "MANUEL VILLAMISAR",
+      "Telefono": "33146403725"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 11,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 5280,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-02-17T12:29:15.1843689-05:00",
+    "FechaRecibido": "2025-02-17T13:20:19.2822395-05:00",
+    "PesoFinal": 4700,
+    "Consumo": 250,
+    "Total": 16250,
+    "estado": "devuelto",
+    "ClienteInfo": "349 - MANUEL VILLAMISAR - DIEGO TOBIAS - 8 R22  - 4700",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 600,
+    "Cliente": {
+      "Id": 15,
+      "Nombre": "MEMIN",
+      "Telefono": "3113279731"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-17T13:02:50.1261337-05:00",
+    "FechaRecibido": "2025-02-17T13:32:29.4868484-05:00",
+    "PesoFinal": 6565,
+    "Consumo": 105,
+    "Total": 6825,
+    "estado": "devuelto",
+    "ClienteInfo": "600 - MEMIN - DIEGO TOBIAS - 1 R22  - 6565",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 127,
+    "Cliente": {
+      "Id": 3,
+      "Nombre": "LUIS MONTIRA",
+      "Telefono": "3206235532"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-17T18:13:01.8487587-05:00",
+    "FechaRecibido": "2025-02-18T12:37:32.4688296-05:00",
+    "PesoFinal": 9425,
+    "Consumo": 350,
+    "Total": 19250,
+    "estado": "devuelto",
+    "ClienteInfo": "127 - LUIS MONTIRA - DIEGO TOBIAS - 7 R410  - 9425",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 301,
+    "Cliente": {
+      "Id": 32,
+      "Nombre": "ALBERTO ARIZA ",
+      "Telefono": "3135743845"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 11,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 5280,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-02-17T18:22:54.1136237-05:00",
+    "FechaRecibido": "2025-02-19T09:32:02.1417288-05:00",
+    "PesoFinal": 4530,
+    "Consumo": 170,
+    "Total": 11050,
+    "estado": "devuelto",
+    "ClienteInfo": "301 - ALBERTO ARIZA  - DIEGO TOBIAS - 8 R22  - 4530",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 336,
+    "Cliente": {
+      "Id": 50,
+      "Nombre": "alejandro daza el tara",
+      "Telefono": "3108281820"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-18T10:03:12.3421926-05:00",
+    "FechaRecibido": "2025-02-18T10:13:38.2303771-05:00",
+    "PesoFinal": 8120,
+    "Consumo": 255,
+    "Total": 14025,
+    "estado": "devuelto",
+    "ClienteInfo": "336 - alejandro daza el tara - JUNIOR REALES - 23 R410  - 8120",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 981,
+    "Cliente": {
+      "Id": 24,
+      "Nombre": "CAMILO VILORIA",
+      "Telefono": "3147059451"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-18T10:56:47.4184248-05:00",
+    "FechaRecibido": "2025-02-18T13:38:11.6162959-05:00",
+    "PesoFinal": 7700,
+    "Consumo": 420,
+    "Total": 23100,
+    "estado": "devuelto",
+    "ClienteInfo": "981 - CAMILO VILORIA - MELKY TOBIAS - 23 R410  - 7700",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 620,
+    "Cliente": {
+      "Id": 15,
+      "Nombre": "MEMIN",
+      "Telefono": "3113279731"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-18T12:06:46.4177996-05:00",
+    "FechaRecibido": "2025-02-18T12:40:53.7139858-05:00",
+    "PesoFinal": 5570,
+    "Consumo": 65,
+    "Total": 3575,
+    "estado": "devuelto",
+    "ClienteInfo": "620 - MEMIN - KEVIN RAMOS - 18 R410  - 5570",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 603,
+    "Cliente": {
+      "Id": 3,
+      "Nombre": "LUIS MONTIRA",
+      "Telefono": "3206235532"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-18T12:40:12.7864933-05:00",
+    "FechaRecibido": "2025-02-18T14:12:11.3355645-05:00",
+    "PesoFinal": 6290,
+    "Consumo": 275,
+    "Total": 17875,
+    "estado": "devuelto",
+    "ClienteInfo": "603 - LUIS MONTIRA - JUNIOR REALES - 1 R22  - 6290",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 351,
+    "Cliente": {
+      "Id": 23,
+      "Nombre": "HUGUES TONCEL ",
+      "Telefono": "3128194318"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-18T12:55:29.6393731-05:00",
+    "FechaRecibido": "2025-02-18T13:15:21.5800158-05:00",
+    "PesoFinal": 5285,
+    "Consumo": 285,
+    "Total": 15675,
+    "estado": "devuelto",
+    "ClienteInfo": "351 - HUGUES TONCEL  - JUNIOR REALES - 18 R410  - 5285",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 106,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "VendedorRecibe": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-18T14:40:04.9630654-05:00",
+    "FechaRecibido": "2025-02-18T16:20:32.8436652-05:00",
+    "PesoFinal": 4925,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "devuelto",
+    "ClienteInfo": "106 - JADER VILORIA  - ALVARO MARIN - 1 R22  - 4925",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 213,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-18T16:25:44.9355984-05:00",
+    "FechaRecibido": "2025-02-18T16:26:00.658017-05:00",
+    "PesoFinal": 6270,
+    "Consumo": 20,
+    "Total": 1300,
+    "estado": "devuelto",
+    "ClienteInfo": "213 - JADER VILORIA  - MELKY TOBIAS - 1 R22  - 6270",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 163,
+    "Cliente": {
+      "Id": 48,
+      "Nombre": "ERICK ESTRADA",
+      "Telefono": "3227285937"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-18T17:09:25.9050576-05:00",
+    "FechaRecibido": "2025-02-18T17:22:03.2661154-05:00",
+    "PesoFinal": 6265,
+    "Consumo": 10,
+    "Total": 650,
+    "estado": "devuelto",
+    "ClienteInfo": "163 - ERICK ESTRADA - JUNIOR REALES - 1 R22  - 6265",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 840,
+    "Cliente": {
+      "Id": 38,
+      "Nombre": "ALEX GUERRERO",
+      "Telefono": "3226368464"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-19T09:09:53.2372395-05:00",
+    "FechaRecibido": "2025-02-22T15:01:16.2349303-05:00",
+    "PesoFinal": 6545,
+    "Consumo": 1155,
+    "Total": 63525,
+    "estado": "devuelto",
+    "ClienteInfo": "840 - ALEX GUERRERO - KEVIN RAMOS - 23 R410  - 6545",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 210,
+    "Cliente": {
+      "Id": 22,
+      "Nombre": "GALAN ",
+      "Telefono": "3142515456"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-19T11:10:29.3782357-05:00",
+    "FechaRecibido": "2025-02-19T12:23:38.0954766-05:00",
+    "PesoFinal": 5285,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "devuelto",
+    "ClienteInfo": "210 - GALAN  - DIEGO TOBIAS - 18 R410  - 5285",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 857,
+    "Cliente": {
+      "Id": 13,
+      "Nombre": "LUIS LOBO",
+      "Telefono": "3001447674"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-19T11:43:31.9848004-05:00",
+    "FechaRecibido": "2025-02-19T12:17:38.4083946-05:00",
+    "PesoFinal": 6100,
+    "Consumo": 170,
+    "Total": 11050,
+    "estado": "devuelto",
+    "ClienteInfo": "857 - LUIS LOBO - DIEGO TOBIAS - 1 R22  - 6100",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 909,
+    "Cliente": {
+      "Id": 51,
+      "Nombre": "WILL ORTIZ",
+      "Telefono": "3148867242"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-19T14:01:47.0045475-05:00",
+    "FechaRecibido": "2025-02-19T16:26:03.7961652-05:00",
+    "PesoFinal": 9240,
+    "Consumo": 185,
+    "Total": 10175,
+    "estado": "devuelto",
+    "ClienteInfo": "909 - WILL ORTIZ - MELKY TOBIAS - 7 R410  - 9240",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 195,
+    "Cliente": {
+      "Id": 3,
+      "Nombre": "LUIS MONTIRA",
+      "Telefono": "3206235532"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-19T14:02:47.2842286-05:00",
+    "FechaRecibido": "2025-02-19T16:48:13.9478008-05:00",
+    "PesoFinal": 5280,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "devuelto",
+    "ClienteInfo": "195 - LUIS MONTIRA - MELKY TOBIAS - 18 R410  - 5280",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 173,
+    "Cliente": {
+      "Id": 32,
+      "Nombre": "ALBERTO ARIZA ",
+      "Telefono": "3135743845"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-19T15:10:29.2207151-05:00",
+    "FechaRecibido": "2025-02-20T08:29:47.8661647-05:00",
+    "PesoFinal": 5990,
+    "Consumo": 105,
+    "Total": 6825,
+    "estado": "devuelto",
+    "ClienteInfo": "173 - ALBERTO ARIZA  - KEVIN RAMOS - 1 R22  - 5990",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 124,
+    "Cliente": {
+      "Id": 52,
+      "Nombre": "RAFAEL",
+      "Telefono": "3244026993"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 10,
+      "NumeroCilindro": "2",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16010,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "2 - R22"
+    },
+    "Fecha": "2025-02-19T17:06:57.1050375-05:00",
+    "FechaRecibido": "2025-02-19T18:23:27.2618832-05:00",
+    "PesoFinal": 14680,
+    "Consumo": 240,
+    "Total": 15600,
+    "estado": "devuelto",
+    "ClienteInfo": "124 - RAFAEL - KEVIN RAMOS - 2 R22  - 14680",
+    "CilindroInfo": "2 R22"
+  },
+  {
+    "Id": 542,
+    "Cliente": {
+      "Id": 22,
+      "Nombre": "GALAN ",
+      "Telefono": "3142515456"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-20T10:59:08.3561894-05:00",
+    "FechaRecibido": "2025-02-20T17:12:03.813351-05:00",
+    "PesoFinal": 9245,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "devuelto",
+    "ClienteInfo": "542 - GALAN  - JUNIOR REALES - 7 R410  - 9245",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 303,
+    "Cliente": {
+      "Id": 3,
+      "Nombre": "LUIS MONTIRA",
+      "Telefono": "3206235532"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-20T13:33:10.5488574-05:00",
+    "FechaRecibido": "2025-02-24T08:02:57.0153397-05:00",
+    "PesoFinal": 5835,
+    "Consumo": 155,
+    "Total": 10075,
+    "estado": "devuelto",
+    "ClienteInfo": "303 - LUIS MONTIRA - KEVIN RAMOS - 1 R22  - 5835",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 958,
+    "Cliente": {
+      "Id": 53,
+      "Nombre": "RICHARD MORALES",
+      "Telefono": "3116129291"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 10,
+      "NumeroCilindro": "2",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16010,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "2 - R22"
+    },
+    "Fecha": "2025-02-20T16:04:16.8926618-05:00",
+    "FechaRecibido": "2025-02-20T17:39:22.6440101-05:00",
+    "PesoFinal": 14295,
+    "Consumo": 385,
+    "Total": 25025,
+    "estado": "devuelto",
+    "ClienteInfo": "958 - RICHARD MORALES - MELKY TOBIAS - 2 R22  - 14295",
+    "CilindroInfo": "2 R22"
+  },
+  {
+    "Id": 152,
+    "Cliente": {
+      "Id": 15,
+      "Nombre": "MEMIN",
+      "Telefono": "3113279731"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-21T16:23:52.3912685-05:00",
+    "FechaRecibido": "2025-02-21T18:04:17.1341247-05:00",
+    "PesoFinal": 4845,
+    "Consumo": 440,
+    "Total": 24200,
+    "estado": "devuelto",
+    "ClienteInfo": "152 - MEMIN - DIEGO TOBIAS - 18 R410  - 4845",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 858,
+    "Cliente": {
+      "Id": 37,
+      "Nombre": "IVER EL POLLO ",
+      "Telefono": "3215251197"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-21T17:41:39.8746417-05:00",
+    "FechaRecibido": "2025-02-21T18:39:04.9312106-05:00",
+    "PesoFinal": 9025,
+    "Consumo": 215,
+    "Total": 11825,
+    "estado": "devuelto",
+    "ClienteInfo": "858 - IVER EL POLLO  - JUNIOR REALES - 7 R410  - 9025",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 804,
+    "Cliente": {
+      "Id": 8,
+      "Nombre": "HERMES GUTIERREZ",
+      "Telefono": "3216732450"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-02-22T08:42:16.995682-05:00",
+    "FechaRecibido": "2025-02-22T09:23:11.741379-05:00",
+    "PesoFinal": 4410,
+    "Consumo": 120,
+    "Total": 7800,
+    "estado": "devuelto",
+    "ClienteInfo": "804 - HERMES GUTIERREZ - DIEGO TOBIAS - 8 R22  - 4410",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 369,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-02-22T09:30:48.2405362-05:00",
+    "FechaRecibido": "2025-02-22T10:21:29.9808812-05:00",
+    "PesoFinal": 4155,
+    "Consumo": 265,
+    "Total": 17225,
+    "estado": "devuelto",
+    "ClienteInfo": "369 - JADER VILORIA  - JUNIOR REALES - 8 R22  - 4155",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 517,
+    "Cliente": {
+      "Id": 54,
+      "Nombre": "ISABEL CRISTINA",
+      "Telefono": "3104410228"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 7,
+      "NumeroCilindro": "7",
+      "Tipo": "R134",
+      "Estado": null,
+      "PesoInicial": 16045,
+      "PrecioPorGramo": 45,
+      "ClienteInfo": "7 - R134"
+    },
+    "Fecha": "2025-02-22T10:35:44.0250886-05:00",
+    "FechaRecibido": "2025-02-23T09:18:27.8895431-05:00",
+    "PesoFinal": 8875,
+    "Consumo": 150,
+    "Total": 6750,
+    "estado": "devuelto",
+    "ClienteInfo": "517 - ISABEL CRISTINA - DIEGO TOBIAS - 7 R134  - 8875",
+    "CilindroInfo": "7 R134"
+  },
+  {
+    "Id": 512,
+    "Cliente": {
+      "Id": 15,
+      "Nombre": "MEMIN",
+      "Telefono": "3113279731"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-23T07:44:12.1846901-05:00",
+    "FechaRecibido": "2025-02-24T09:46:52.2812421-05:00",
+    "PesoFinal": 6495,
+    "Consumo": 45,
+    "Total": 2475,
+    "estado": "devuelto",
+    "ClienteInfo": "512 - MEMIN - KEVIN RAMOS - 23 R410  - 6495",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 430,
+    "Cliente": {
+      "Id": 55,
+      "Nombre": "ANDRES AARON",
+      "Telefono": "3146780763"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 2,
+      "NumeroCilindro": "15",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 6000,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "15 - R410"
+    },
+    "Fecha": "2025-02-23T10:11:41.8614402-05:00",
+    "FechaRecibido": "2025-02-23T10:38:25.9177259-05:00",
+    "PesoFinal": 8635,
+    "Consumo": 240,
+    "Total": 13200,
+    "estado": "devuelto",
+    "ClienteInfo": "430 - ANDRES AARON - DIEGO TOBIAS - 15 R410  - 8635",
+    "CilindroInfo": "15 R410"
+  },
+  {
+    "Id": 673,
+    "Cliente": {
+      "Id": 32,
+      "Nombre": "ALBERTO ARIZA ",
+      "Telefono": "3135743845"
+    },
+    "Vendedor": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "VendedorRecibe": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-02-23T11:26:26.0759234-05:00",
+    "FechaRecibido": "2025-02-25T11:02:32.2340259-05:00",
+    "PesoFinal": 3840,
+    "Consumo": 315,
+    "Total": 20475,
+    "estado": "devuelto",
+    "ClienteInfo": "673 - ALBERTO ARIZA  - ALVARO MARIN - 8 R22  - 3840",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 693,
+    "Cliente": {
+      "Id": 22,
+      "Nombre": "GALAN ",
+      "Telefono": "3142515456"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-24T09:33:41.3651435-05:00",
+    "FechaRecibido": "2025-02-24T14:21:33.0873221-05:00",
+    "PesoFinal": 8070,
+    "Consumo": 565,
+    "Total": 31075,
+    "estado": "devuelto",
+    "ClienteInfo": "693 - GALAN  - MELKY TOBIAS - 7 R410  - 8070",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 917,
+    "Cliente": {
+      "Id": 56,
+      "Nombre": "WILINTO",
+      "Telefono": "318738175"
+    },
+    "Vendedor": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 10,
+      "NumeroCilindro": "2",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16010,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "2 - R22"
+    },
+    "Fecha": "2025-02-24T10:04:23.0712865-05:00",
+    "FechaRecibido": "2025-02-24T11:37:34.923739-05:00",
+    "PesoFinal": 14155,
+    "Consumo": 135,
+    "Total": 8775,
+    "estado": "devuelto",
+    "ClienteInfo": "917 - WILINTO - ALVARO MARIN - 2 R22  - 14155",
+    "CilindroInfo": "2 R22"
+  },
+  {
+    "Id": 842,
+    "Cliente": {
+      "Id": 51,
+      "Nombre": "WILL ORTIZ",
+      "Telefono": "3148867242"
+    },
+    "Vendedor": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-24T10:55:04.929951-05:00",
+    "FechaRecibido": "2025-02-24T11:41:45.6033801-05:00",
+    "PesoFinal": 6390,
+    "Consumo": 100,
+    "Total": 5500,
+    "estado": "devuelto",
+    "ClienteInfo": "842 - WILL ORTIZ - IVAN TOBIAS - 23 R410  - 6390",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 876,
+    "Cliente": {
+      "Id": 20,
+      "Nombre": "JESUS MARTINEZ ",
+      "Telefono": "3208193840"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-24T10:58:32.4503413-05:00",
+    "FechaRecibido": "2025-02-24T12:10:46.3063144-05:00",
+    "PesoFinal": 5835,
+    "Consumo": 5,
+    "Total": 325,
+    "estado": "devuelto",
+    "ClienteInfo": "876 - JESUS MARTINEZ  - DIEGO TOBIAS - 1 R22  - 5835",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 425,
+    "Cliente": {
+      "Id": 56,
+      "Nombre": "WILINTO",
+      "Telefono": "318738175"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-24T13:49:14.3519507-05:00",
+    "FechaRecibido": "2025-02-24T14:18:17.4954029-05:00",
+    "PesoFinal": 5780,
+    "Consumo": 55,
+    "Total": 3575,
+    "estado": "devuelto",
+    "ClienteInfo": "425 - WILINTO - MELKY TOBIAS - 1 R22  - 5780",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 461,
+    "Cliente": {
+      "Id": 22,
+      "Nombre": "GALAN ",
+      "Telefono": "3142515456"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-24T14:22:52.0318457-05:00",
+    "FechaRecibido": "2025-02-24T16:04:05.8076312-05:00",
+    "PesoFinal": 7950,
+    "Consumo": 120,
+    "Total": 6600,
+    "estado": "devuelto",
+    "ClienteInfo": "461 - GALAN  - KEVIN RAMOS - 7 R410  - 7950",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 698,
+    "Cliente": {
+      "Id": 20,
+      "Nombre": "JESUS MARTINEZ ",
+      "Telefono": "3208193840"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-24T16:39:31.4363565-05:00",
+    "FechaRecibido": "2025-02-24T16:56:35.006338-05:00",
+    "PesoFinal": 5625,
+    "Consumo": 155,
+    "Total": 10075,
+    "estado": "devuelto",
+    "ClienteInfo": "698 - JESUS MARTINEZ  - KEVIN RAMOS - 1 R22  - 5625",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 482,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "VendedorRecibe": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-24T17:07:31.69931-05:00",
+    "FechaRecibido": "2025-02-24T18:34:48.5768357-05:00",
+    "PesoFinal": 5295,
+    "Consumo": 330,
+    "Total": 21450,
+    "estado": "devuelto",
+    "ClienteInfo": "482 - JADER VILORIA  - LEONARDO MOLINA - 1 R22  - 5295",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 723,
+    "Cliente": {
+      "Id": 30,
+      "Nombre": "JOSE OLIVELLA",
+      "Telefono": "3107036862"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 10,
+      "NumeroCilindro": "2",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16010,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "2 - R22"
+    },
+    "Fecha": "2025-02-24T17:48:27.2185123-05:00",
+    "FechaRecibido": "2025-02-25T09:59:54.7976324-05:00",
+    "PesoFinal": 14155,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "devuelto",
+    "ClienteInfo": "723 - JOSE OLIVELLA - KEVIN RAMOS - 2 R22  - 14155",
+    "CilindroInfo": "2 R22"
+  },
+  {
+    "Id": 176,
+    "Cliente": {
+      "Id": 32,
+      "Nombre": "ALBERTO ARIZA ",
+      "Telefono": "3135743845"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-25T09:09:17.4679153-05:00",
+    "FechaRecibido": "2025-02-25T11:01:52.2656637-05:00",
+    "PesoFinal": 7485,
+    "Consumo": 465,
+    "Total": 25575,
+    "estado": "devuelto",
+    "ClienteInfo": "176 - ALBERTO ARIZA  - DIEGO TOBIAS - 7 R410  - 7485",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 438,
+    "Cliente": {
+      "Id": 15,
+      "Nombre": "MEMIN",
+      "Telefono": "3113279731"
+    },
+    "Vendedor": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-25T13:57:00.2206217-05:00",
+    "FechaRecibido": "2025-02-26T08:44:34.4150588-05:00",
+    "PesoFinal": 5985,
+    "Consumo": 405,
+    "Total": 22275,
+    "estado": "devuelto",
+    "ClienteInfo": "438 - MEMIN - IVAN TOBIAS - 23 R410  - 5985",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 817,
+    "Cliente": {
+      "Id": 57,
+      "Nombre": "DANIEL MIER ",
+      "Telefono": "3127032182"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-26T15:38:27.7286758-05:00",
+    "FechaRecibido": "2025-02-26T16:10:35.8009526-05:00",
+    "PesoFinal": 5150,
+    "Consumo": 145,
+    "Total": 9425,
+    "estado": "devuelto",
+    "ClienteInfo": "817 - DANIEL MIER  - DIEGO TOBIAS - 1 R22  - 5150",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 596,
+    "Cliente": {
+      "Id": 3,
+      "Nombre": "LUIS MONTIRA",
+      "Telefono": "3206235532"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-26T16:39:18.772782-05:00",
+    "FechaRecibido": "2025-02-26T17:12:14.819523-05:00",
+    "PesoFinal": 5110,
+    "Consumo": 40,
+    "Total": 2600,
+    "estado": "devuelto",
+    "ClienteInfo": "596 - LUIS MONTIRA - DIEGO TOBIAS - 1 R22  - 5110",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 287,
+    "Cliente": {
+      "Id": 50,
+      "Nombre": "alejandro daza el tara",
+      "Telefono": "3108281820"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-26T17:03:30.5866464-05:00",
+    "FechaRecibido": "2025-02-26T17:56:52.8340576-05:00",
+    "PesoFinal": 5310,
+    "Consumo": 675,
+    "Total": 37125,
+    "estado": "devuelto",
+    "ClienteInfo": "287 - alejandro daza el tara - DIEGO TOBIAS - 23 R410  - 5310",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 328,
+    "Cliente": {
+      "Id": 32,
+      "Nombre": "ALBERTO ARIZA ",
+      "Telefono": "3135743845"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-02-26T17:33:43.5132131-05:00",
+    "FechaRecibido": "2025-02-28T07:58:06.7759663-05:00",
+    "PesoFinal": 4140,
+    "Consumo": 395,
+    "Total": 21725,
+    "estado": "devuelto",
+    "ClienteInfo": "328 - ALBERTO ARIZA  - DIEGO TOBIAS - 18 R410  - 4140",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 644,
+    "Cliente": {
+      "Id": 19,
+      "Nombre": "MANUEL VILLAMISAR",
+      "Telefono": "33146403725"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-26T18:13:49.4370111-05:00",
+    "FechaRecibido": "2025-02-28T11:38:39.4139982-05:00",
+    "PesoFinal": 4385,
+    "Consumo": 725,
+    "Total": 47125,
+    "estado": "devuelto",
+    "ClienteInfo": "644 - MANUEL VILLAMISAR - DIEGO TOBIAS - 1 R22  - 4385",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 920,
+    "Cliente": {
+      "Id": 33,
+      "Nombre": "ELKIN PAYARES",
+      "Telefono": "3114079253"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 10,
+      "NumeroCilindro": "2",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16010,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "2 - R22"
+    },
+    "Fecha": "2025-02-27T08:49:40.654905-05:00",
+    "FechaRecibido": "2025-02-27T12:36:14.5371865-05:00",
+    "PesoFinal": 13110,
+    "Consumo": 1045,
+    "Total": 67925,
+    "estado": "devuelto",
+    "ClienteInfo": "920 - ELKIN PAYARES - KEVIN RAMOS - 2 R22  - 13110",
+    "CilindroInfo": "2 R22"
+  },
+  {
+    "Id": 277,
+    "Cliente": {
+      "Id": 3,
+      "Nombre": "LUIS MONTIRA",
+      "Telefono": "3206235532"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 12,
+      "NumeroCilindro": "20",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16000,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "20 - R22"
+    },
+    "Fecha": "2025-02-27T09:47:01.3968176-05:00",
+    "FechaRecibido": "2025-02-27T11:01:57.9652047-05:00",
+    "PesoFinal": 15710,
+    "Consumo": 290,
+    "Total": 18850,
+    "estado": "devuelto",
+    "ClienteInfo": "277 - LUIS MONTIRA - DIEGO TOBIAS - 20 R22  - 15710",
+    "CilindroInfo": "20 R22"
+  },
+  {
+    "Id": 819,
+    "Cliente": {
+      "Id": 43,
+      "Nombre": "JADER RUIZ GALLO ",
+      "Telefono": "3216120703"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-27T10:27:51.9319763-05:00",
+    "FechaRecibido": "2025-02-27T12:34:24.8972113-05:00",
+    "PesoFinal": 4610,
+    "Consumo": 695,
+    "Total": 38225,
+    "estado": "devuelto",
+    "ClienteInfo": "819 - JADER RUIZ GALLO  - KEVIN RAMOS - 23 R410  - 4610",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 263,
+    "Cliente": {
+      "Id": 34,
+      "Nombre": "CARLOS MIRANDA ",
+      "Telefono": "3103629465"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-27T14:25:29.5786127-05:00",
+    "FechaRecibido": "2025-02-27T17:22:42.9614483-05:00",
+    "PesoFinal": 7245,
+    "Consumo": 240,
+    "Total": 13200,
+    "estado": "devuelto",
+    "ClienteInfo": "263 - CARLOS MIRANDA  - DIEGO TOBIAS - 7 R410  - 7245",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 503,
+    "Cliente": {
+      "Id": 37,
+      "Nombre": "IVER EL POLLO ",
+      "Telefono": "3215251197"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-02-27T15:32:12.8192937-05:00",
+    "FechaRecibido": "2025-02-27T16:48:58.3900064-05:00",
+    "PesoFinal": 4425,
+    "Consumo": 190,
+    "Total": 10450,
+    "estado": "devuelto",
+    "ClienteInfo": "503 - IVER EL POLLO  - DIEGO TOBIAS - 23 R410  - 4425",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 620,
+    "Cliente": {
+      "Id": 9,
+      "Nombre": "JAVIER RAMBAL ",
+      "Telefono": "3016862515"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 12,
+      "NumeroCilindro": "20",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16000,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "20 - R22"
+    },
+    "Fecha": "2025-02-27T17:00:15.8110677-05:00",
+    "FechaRecibido": "2025-02-27T18:00:47.524518-05:00",
+    "PesoFinal": 14655,
+    "Consumo": 1050,
+    "Total": 68250,
+    "estado": "devuelto",
+    "ClienteInfo": "620 - JAVIER RAMBAL  - DIEGO TOBIAS - 20 R22  - 14655",
+    "CilindroInfo": "20 R22"
+  },
+  {
+    "Id": 214,
+    "Cliente": {
+      "Id": 41,
+      "Nombre": "LEVITH BARBOSA",
+      "Telefono": "3205263619"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 10,
+      "NumeroCilindro": "2",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16010,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "2 - R22"
+    },
+    "Fecha": "2025-02-27T17:43:54.8249102-05:00",
+    "FechaRecibido": "2025-02-28T07:30:57.4299248-05:00",
+    "PesoFinal": 12625,
+    "Consumo": 480,
+    "Total": 31200,
+    "estado": "devuelto",
+    "ClienteInfo": "214 - LEVITH BARBOSA - MELKY TOBIAS - 2 R22  - 12625",
+    "CilindroInfo": "2 R22"
+  },
+  {
+    "Id": 168,
+    "Cliente": {
+      "Id": 15,
+      "Nombre": "MEMIN",
+      "Telefono": "3113279731"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 12,
+      "NumeroCilindro": "20",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16000,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "20 - R22"
+    },
+    "Fecha": "2025-02-27T18:02:09.9608589-05:00",
+    "FechaRecibido": "2025-02-27T18:20:26.6730438-05:00",
+    "PesoFinal": 14460,
+    "Consumo": 190,
+    "Total": 12350,
+    "estado": "devuelto",
+    "ClienteInfo": "168 - MEMIN - DIEGO TOBIAS - 20 R22  - 14460",
+    "CilindroInfo": "20 R22"
+  },
+  {
+    "Id": 552,
+    "Cliente": {
+      "Id": 50,
+      "Nombre": "alejandro daza el tara",
+      "Telefono": "3108281820"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-02-28T08:52:35.9742727-05:00",
+    "FechaRecibido": "2025-02-28T09:20:11.726001-05:00",
+    "PesoFinal": 6790,
+    "Consumo": 455,
+    "Total": 25025,
+    "estado": "devuelto",
+    "ClienteInfo": "552 - alejandro daza el tara - KEVIN RAMOS - 7 R410  - 6790",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 374,
+    "Cliente": {
+      "Id": 58,
+      "Nombre": "LUIS MU\u00D1OZ",
+      "Telefono": "3017947994"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-28T13:28:56.4515485-05:00",
+    "FechaRecibido": "2025-02-28T14:23:44.0414433-05:00",
+    "PesoFinal": 4185,
+    "Consumo": 200,
+    "Total": 13000,
+    "estado": "devuelto",
+    "ClienteInfo": "374 - LUIS MU\u00D1OZ - DIEGO TOBIAS - 1 R22  - 4185",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 425,
+    "Cliente": {
+      "Id": 32,
+      "Nombre": "ALBERTO ARIZA ",
+      "Telefono": "3135743845"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": null,
+    "Cilindro": {
+      "Id": 3,
+      "NumeroCilindro": "1",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 11090,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "1 - R22"
+    },
+    "Fecha": "2025-02-28T17:22:32.9291083-05:00",
+    "FechaRecibido": "0001-01-01T00:00:00",
+    "PesoFinal": 4190,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "prestado",
+    "ClienteInfo": "425 - ALBERTO ARIZA  - MELKY TOBIAS - 1 R22  - 4190",
+    "CilindroInfo": "1 R22"
+  },
+  {
+    "Id": 319,
+    "Cliente": {
+      "Id": 25,
+      "Nombre": "EDWIN TICORA",
+      "Telefono": "3147332126"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-03-01T08:40:54.1236425-05:00",
+    "FechaRecibido": "2025-03-01T09:03:26.343942-05:00",
+    "PesoFinal": 6460,
+    "Consumo": 330,
+    "Total": 18150,
+    "estado": "devuelto",
+    "ClienteInfo": "319 - EDWIN TICORA - MELKY TOBIAS - 7 R410  - 6460",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 467,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-03-01T11:49:19.1865312-05:00",
+    "FechaRecibido": "2025-03-01T12:53:21.7296218-05:00",
+    "PesoFinal": 6405,
+    "Consumo": 65,
+    "Total": 3575,
+    "estado": "devuelto",
+    "ClienteInfo": "467 - JADER VILORIA  - KEVIN RAMOS - 7 R410  - 6405",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 786,
+    "Cliente": {
+      "Id": 51,
+      "Nombre": "WILL ORTIZ",
+      "Telefono": "3148867242"
+    },
+    "Vendedor": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "VendedorRecibe": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-03-01T14:14:59.8349853-05:00",
+    "FechaRecibido": "2025-03-04T15:01:56.7908448-05:00",
+    "PesoFinal": 6125,
+    "Consumo": 275,
+    "Total": 15125,
+    "estado": "devuelto",
+    "ClienteInfo": "786 - WILL ORTIZ - ALVARO MARIN - 7 R410  - 6125",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 690,
+    "Cliente": {
+      "Id": 16,
+      "Nombre": "JORGE PRADA",
+      "Telefono": "3188417953"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-03-01T16:10:13.352607-05:00",
+    "FechaRecibido": "2025-03-01T16:45:02.2265039-05:00",
+    "PesoFinal": 4290,
+    "Consumo": 135,
+    "Total": 7425,
+    "estado": "devuelto",
+    "ClienteInfo": "690 - JORGE PRADA - JUNIOR REALES - 23 R410  - 4290",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 913,
+    "Cliente": {
+      "Id": 59,
+      "Nombre": "JOSE DOMINGUEZ",
+      "Telefono": "3105325301"
+    },
+    "Vendedor": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-03-01T17:00:49.04115-05:00",
+    "FechaRecibido": "2025-03-01T17:43:57.7211165-05:00",
+    "PesoFinal": 4220,
+    "Consumo": 70,
+    "Total": 3850,
+    "estado": "devuelto",
+    "ClienteInfo": "913 - JOSE DOMINGUEZ - ALVARO MARIN - 23 R410  - 4220",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 570,
+    "Cliente": {
+      "Id": 31,
+      "Nombre": "HERNANDO ROBAYO",
+      "Telefono": "3206402833"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-03-03T09:32:40.0617945-05:00",
+    "FechaRecibido": "2025-03-03T10:30:15.4515824-05:00",
+    "PesoFinal": 3860,
+    "Consumo": 345,
+    "Total": 18975,
+    "estado": "devuelto",
+    "ClienteInfo": "570 - HERNANDO ROBAYO - DIEGO TOBIAS - 23 R410  - 3860",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 761,
+    "Cliente": {
+      "Id": 60,
+      "Nombre": "ESTEVES",
+      "Telefono": "3126938468"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": null,
+    "Cilindro": {
+      "Id": 6,
+      "NumeroCilindro": "18",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14805,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "18 - R410"
+    },
+    "Fecha": "2025-03-03T10:27:39.6845845-05:00",
+    "FechaRecibido": "0001-01-01T00:00:00",
+    "PesoFinal": 4120,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "prestado",
+    "ClienteInfo": "761 - ESTEVES - DIEGO TOBIAS - 18 R410  - 4120",
+    "CilindroInfo": "18 R410"
+  },
+  {
+    "Id": 699,
+    "Cliente": {
+      "Id": 31,
+      "Nombre": "HERNANDO ROBAYO",
+      "Telefono": "3206402833"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 5,
+      "NumeroCilindro": "10",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 4610,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "10 - R410"
+    },
+    "Fecha": "2025-03-03T10:31:49.6573084-05:00",
+    "FechaRecibido": "2025-03-03T11:25:24.351869-05:00",
+    "PesoFinal": 4250,
+    "Consumo": 105,
+    "Total": 5775,
+    "estado": "devuelto",
+    "ClienteInfo": "699 - HERNANDO ROBAYO - DIEGO TOBIAS - 10 R410  - 4250",
+    "CilindroInfo": "10 R410"
+  },
+  {
+    "Id": 848,
+    "Cliente": {
+      "Id": 25,
+      "Nombre": "EDWIN TICORA",
+      "Telefono": "3147332126"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 5,
+      "NumeroCilindro": "10",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 4610,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "10 - R410"
+    },
+    "Fecha": "2025-03-03T14:44:38.2631491-05:00",
+    "FechaRecibido": "2025-03-03T15:11:34.1995201-05:00",
+    "PesoFinal": 4190,
+    "Consumo": 60,
+    "Total": 3300,
+    "estado": "devuelto",
+    "ClienteInfo": "848 - EDWIN TICORA - JUNIOR REALES - 10 R410  - 4190",
+    "CilindroInfo": "10 R410"
+  },
+  {
+    "Id": 418,
+    "Cliente": {
+      "Id": 25,
+      "Nombre": "EDWIN TICORA",
+      "Telefono": "3147332126"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 8,
+      "NumeroCilindro": "23",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14745,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "23 - R410"
+    },
+    "Fecha": "2025-03-03T14:45:23.5282933-05:00",
+    "FechaRecibido": "2025-03-03T14:45:40.4800781-05:00",
+    "PesoFinal": 3775,
+    "Consumo": 91,
+    "Total": 5005,
+    "estado": "devuelto",
+    "ClienteInfo": "418 - EDWIN TICORA - JUNIOR REALES - 23 R410  - 3775",
+    "CilindroInfo": "23 R410"
+  },
+  {
+    "Id": 386,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 10,
+      "NumeroCilindro": "2",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16010,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "2 - R22"
+    },
+    "Fecha": "2025-03-03T16:57:17.7699443-05:00",
+    "FechaRecibido": "2025-03-03T17:14:12.3898749-05:00",
+    "PesoFinal": 12585,
+    "Consumo": 50,
+    "Total": 3250,
+    "estado": "devuelto",
+    "ClienteInfo": "386 - JADER VILORIA  - MELKY TOBIAS - 2 R22  - 12585",
+    "CilindroInfo": "2 R22"
+  },
+  {
+    "Id": 984,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 7,
+      "Nombre": "MELKY TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 5,
+      "NumeroCilindro": "10",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 4610,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "10 - R410"
+    },
+    "Fecha": "2025-03-03T17:15:25.3548883-05:00",
+    "FechaRecibido": "2025-03-03T17:53:04.8734749-05:00",
+    "PesoFinal": 4055,
+    "Consumo": 135,
+    "Total": 7425,
+    "estado": "devuelto",
+    "ClienteInfo": "984 - JADER VILORIA  - DIEGO TOBIAS - 10 R410  - 4055",
+    "CilindroInfo": "10 R410"
+  },
+  {
+    "Id": 245,
+    "Cliente": {
+      "Id": 9,
+      "Nombre": "JAVIER RAMBAL ",
+      "Telefono": "3016862515"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 10,
+      "NumeroCilindro": "2",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16010,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "2 - R22"
+    },
+    "Fecha": "2025-03-04T09:55:33.5213575-05:00",
+    "FechaRecibido": "2025-03-04T10:25:21.0635903-05:00",
+    "PesoFinal": 12430,
+    "Consumo": 155,
+    "Total": 10075,
+    "estado": "devuelto",
+    "ClienteInfo": "245 - JAVIER RAMBAL  - DIEGO TOBIAS - 2 R22  - 12430",
+    "CilindroInfo": "2 R22"
+  },
+  {
+    "Id": 666,
+    "Cliente": {
+      "Id": 13,
+      "Nombre": "LUIS LOBO",
+      "Telefono": "3001447674"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "Cilindro": {
+      "Id": 12,
+      "NumeroCilindro": "20",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16000,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "20 - R22"
+    },
+    "Fecha": "2025-03-04T09:57:10.4168233-05:00",
+    "FechaRecibido": "2025-03-04T13:45:06.8284062-05:00",
+    "PesoFinal": 14300,
+    "Consumo": 165,
+    "Total": 10725,
+    "estado": "devuelto",
+    "ClienteInfo": "666 - LUIS LOBO - JUNIOR REALES - 20 R22  - 14300",
+    "CilindroInfo": "20 R22"
+  },
+  {
+    "Id": 512,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "Cilindro": {
+      "Id": 5,
+      "NumeroCilindro": "10",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 4610,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "10 - R410"
+    },
+    "Fecha": "2025-03-04T14:28:00.2856828-05:00",
+    "FechaRecibido": "2025-03-04T14:47:00.943051-05:00",
+    "PesoFinal": 450,
+    "Consumo": 3605,
+    "Total": 198275,
+    "estado": "devuelto",
+    "ClienteInfo": "512 - JADER VILORIA  - DIEGO TOBIAS - 10 R410  - 450",
+    "CilindroInfo": "10 R410"
+  },
+  {
+    "Id": 309,
+    "Cliente": {
+      "Id": 22,
+      "Nombre": "GALAN ",
+      "Telefono": "3142515456"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "Cilindro": {
+      "Id": 5,
+      "NumeroCilindro": "10",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 4610,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "10 - R410"
+    },
+    "Fecha": "2025-03-04T15:30:31.4527417-05:00",
+    "FechaRecibido": "2025-03-04T16:38:48.5225609-05:00",
+    "PesoFinal": 6000,
+    "Consumo": 120,
+    "Total": 6600,
+    "estado": "devuelto",
+    "ClienteInfo": "309 - GALAN  - JUNIOR REALES - 10 R410  - 6000",
+    "CilindroInfo": "10 R410"
+  },
+  {
+    "Id": 235,
+    "Cliente": {
+      "Id": 19,
+      "Nombre": "MANUEL VILLAMISAR",
+      "Telefono": "33146403725"
+    },
+    "Vendedor": {
+      "Id": 8,
+      "Nombre": "KEVIN RAMOS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 1,
+      "NumeroCilindro": "8",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 10380,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "8 - R22"
+    },
+    "Fecha": "2025-03-04T18:46:57.2927222-05:00",
+    "FechaRecibido": "2025-03-05T11:05:29.8014546-05:00",
+    "PesoFinal": 3275,
+    "Consumo": 560,
+    "Total": 36400,
+    "estado": "devuelto",
+    "ClienteInfo": "235 - MANUEL VILLAMISAR - KEVIN RAMOS - 8 R22  - 3275",
+    "CilindroInfo": "8 R22"
+  },
+  {
+    "Id": 860,
+    "Cliente": {
+      "Id": 59,
+      "Nombre": "JOSE DOMINGUEZ",
+      "Telefono": "3105325301"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 7,
+      "NumeroCilindro": "7",
+      "Tipo": "R134",
+      "Estado": null,
+      "PesoInicial": 16045,
+      "PrecioPorGramo": 45,
+      "ClienteInfo": "7 - R134"
+    },
+    "Fecha": "2025-03-06T11:02:27.9216893-05:00",
+    "FechaRecibido": "2025-03-06T11:13:06.0033337-05:00",
+    "PesoFinal": 5705,
+    "Consumo": 295,
+    "Total": 13275,
+    "estado": "devuelto",
+    "ClienteInfo": "860 - JOSE DOMINGUEZ - DIEGO TOBIAS - 7 R134  - 5705",
+    "CilindroInfo": "7 R134"
+  },
+  {
+    "Id": 102,
+    "Cliente": {
+      "Id": 61,
+      "Nombre": "OSCAR ",
+      "Telefono": "MORALES"
+    },
+    "Vendedor": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "VendedorRecibe": {
+      "Id": 4,
+      "Nombre": "LEONARDO MOLINA"
+    },
+    "Cilindro": {
+      "Id": 5,
+      "NumeroCilindro": "10",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 4610,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "10 - R410"
+    },
+    "Fecha": "2025-03-06T16:11:51.6446407-05:00",
+    "FechaRecibido": "2025-03-06T16:59:29.1559521-05:00",
+    "PesoFinal": 5520,
+    "Consumo": 195,
+    "Total": 10725,
+    "estado": "devuelto",
+    "ClienteInfo": "102 - OSCAR  - LEONARDO MOLINA - 10 R410  - 5520",
+    "CilindroInfo": "10 R410"
+  },
+  {
+    "Id": 329,
+    "Cliente": {
+      "Id": 5,
+      "Nombre": "JADER VILORIA ",
+      "Telefono": "3015904842"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "Cilindro": {
+      "Id": 10,
+      "NumeroCilindro": "2",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16010,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "2 - R22"
+    },
+    "Fecha": "2025-03-06T17:17:42.9329997-05:00",
+    "FechaRecibido": "2025-03-07T11:26:59.8576746-05:00",
+    "PesoFinal": 11875,
+    "Consumo": 580,
+    "Total": 37700,
+    "estado": "devuelto",
+    "ClienteInfo": "329 - JADER VILORIA  - JUNIOR REALES - 2 R22  - 11875",
+    "CilindroInfo": "2 R22"
+  },
+  {
+    "Id": 595,
+    "Cliente": {
+      "Id": 57,
+      "Nombre": "DANIEL MIER ",
+      "Telefono": "3127032182"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-03-07T09:35:20.9710004-05:00",
+    "FechaRecibido": "2025-03-07T11:48:05.4386545-05:00",
+    "PesoFinal": 5190,
+    "Consumo": 325,
+    "Total": 17875,
+    "estado": "devuelto",
+    "ClienteInfo": "595 - DANIEL MIER  - JUNIOR REALES - 7 R410  - 5190",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 952,
+    "Cliente": {
+      "Id": 22,
+      "Nombre": "GALAN ",
+      "Telefono": "3142515456"
+    },
+    "Vendedor": {
+      "Id": 1,
+      "Nombre": "JUNIOR REALES"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-03-07T12:05:59.4774513-05:00",
+    "FechaRecibido": "2025-03-07T12:40:31.0051739-05:00",
+    "PesoFinal": 5190,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "devuelto",
+    "ClienteInfo": "952 - GALAN  - JUNIOR REALES - 7 R410  - 5190",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 116,
+    "Cliente": {
+      "Id": 9,
+      "Nombre": "JAVIER RAMBAL ",
+      "Telefono": "3016862515"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-03-07T15:50:06.566732-05:00",
+    "FechaRecibido": "2025-03-08T08:11:49.9750647-05:00",
+    "PesoFinal": 4790,
+    "Consumo": 400,
+    "Total": 22000,
+    "estado": "devuelto",
+    "ClienteInfo": "116 - JAVIER RAMBAL  - DIEGO TOBIAS - 7 R410  - 4790",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 992,
+    "Cliente": {
+      "Id": 3,
+      "Nombre": "LUIS MONTIRA",
+      "Telefono": "3206235532"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 10,
+      "NumeroCilindro": "2",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16010,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "2 - R22"
+    },
+    "Fecha": "2025-03-07T16:38:05.7863233-05:00",
+    "FechaRecibido": "2025-03-07T17:06:09.3492136-05:00",
+    "PesoFinal": 11480,
+    "Consumo": 380,
+    "Total": 24700,
+    "estado": "devuelto",
+    "ClienteInfo": "992 - LUIS MONTIRA - DIEGO TOBIAS - 2 R22  - 11480",
+    "CilindroInfo": "2 R22"
+  },
+  {
+    "Id": 608,
+    "Cliente": {
+      "Id": 39,
+      "Nombre": "TOMAS MINDIOLA",
+      "Telefono": "3145037571"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 12,
+      "NumeroCilindro": "20",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16000,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "20 - R22"
+    },
+    "Fecha": "2025-03-07T16:39:30.6045436-05:00",
+    "FechaRecibido": "2025-03-07T17:08:48.4505687-05:00",
+    "PesoFinal": 14120,
+    "Consumo": 205,
+    "Total": 13325,
+    "estado": "devuelto",
+    "ClienteInfo": "608 - TOMAS MINDIOLA - DIEGO TOBIAS - 20 R22  - 14120",
+    "CilindroInfo": "20 R22"
+  },
+  {
+    "Id": 552,
+    "Cliente": {
+      "Id": 14,
+      "Nombre": "SE\u00D1OR LUIS",
+      "Telefono": "3103634075"
+    },
+    "Vendedor": {
+      "Id": 6,
+      "Nombre": "DIEGO TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 10,
+      "NumeroCilindro": "2",
+      "Tipo": "R22",
+      "Estado": null,
+      "PesoInicial": 16010,
+      "PrecioPorGramo": 65,
+      "ClienteInfo": "2 - R22"
+    },
+    "Fecha": "2025-03-07T17:08:19.0586091-05:00",
+    "FechaRecibido": "2025-03-08T07:59:34.4900243-05:00",
+    "PesoFinal": 10890,
+    "Consumo": 590,
+    "Total": 38350,
+    "estado": "devuelto",
+    "ClienteInfo": "552 - SE\u00D1OR LUIS - DIEGO TOBIAS - 2 R22  - 10890",
+    "CilindroInfo": "2 R22"
+  },
+  {
+    "Id": 436,
+    "Cliente": {
+      "Id": 15,
+      "Nombre": "MEMIN",
+      "Telefono": "3113279731"
+    },
+    "Vendedor": {
+      "Id": 5,
+      "Nombre": "ALVARO MARIN"
+    },
+    "VendedorRecibe": null,
+    "Cilindro": {
+      "Id": 9,
+      "NumeroCilindro": "7",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 14735,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "7 - R410"
+    },
+    "Fecha": "2025-03-08T08:12:42.0816044-05:00",
+    "FechaRecibido": "0001-01-01T00:00:00",
+    "PesoFinal": 4790,
+    "Consumo": 0,
+    "Total": 0,
+    "estado": "prestado",
+    "ClienteInfo": "436 - MEMIN - ALVARO MARIN - 7 R410  - 4790",
+    "CilindroInfo": "7 R410"
+  },
+  {
+    "Id": 826,
+    "Cliente": {
+      "Id": 62,
+      "Nombre": "JUANCHO POL",
+      "Telefono": "3213451321"
+    },
+    "Vendedor": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "VendedorRecibe": {
+      "Id": 2,
+      "Nombre": "IVAN TOBIAS"
+    },
+    "Cilindro": {
+      "Id": 2,
+      "NumeroCilindro": "15",
+      "Tipo": "R410",
+      "Estado": null,
+      "PesoInicial": 6000,
+      "PrecioPorGramo": 55,
+      "ClienteInfo": "15 - R410"
+    },
+    "Fecha": "2025-03-11T17:52:24.4868427-05:00",
+    "FechaRecibido": "2025-03-11T17:52:38.6601992-05:00",
+    "PesoFinal": 12,
+    "Consumo": 111,
+    "Total": 6105,
+    "estado": "devuelto",
+    "ClienteInfo": "826 - JUANCHO POL - IVAN TOBIAS - 15 R410  - 12",
+    "CilindroInfo": "15 R410"
+  }
+]
