@@ -1,6 +1,7 @@
 using MaterialSkin;
 using MaterialSkin.Controls;
 using System.ComponentModel;
+using System.Drawing.Printing;
 using System.Text.Json;
 using System.Windows.Forms;
 
@@ -499,18 +500,25 @@ namespace ControlCilindros
             cbRecibe.SelectedIndex = -1;
         }
 
+        private void ActualizarEstadosCilindros()
+        {
+            var idsActivos = new List<string> { "30", "9", "7", "11", "20", "13", "12", "14", "16", "17", "19" };
 
+            foreach (var cilindro in cilindros)
+            {
+                cilindro.Estado = idsActivos.Contains(cilindro.NumeroCilindro) ? "Disponible" : "NoDisponible";
+            }
+
+            GuardarDatos(RutaCilindros, cilindros);
+        }
 
         private void ActualizarComboboxCilindros()
         {
-            var cilindrosPrestadosIds = transacciones
-                .Where(t => t.estado == "prestado")
-                .Select(t => t.Cilindro.Id)
-                .ToList();
-
+            // Solo mostrar cilindros disponibles y no prestados
             var cilindrosDisponibles = cilindros
-     .Where(c => !cilindrosPrestadosIds.Contains(c.Id))
-     .ToList();
+                .Where(c => c.Estado == "Disponible" &&
+                       !transacciones.Any(t => t.estado == "prestado" && t.Cilindro?.Id == c.Id))
+                .ToList();
 
             cbCilindros.DataSource = null;
             cbCilindros.DataSource = cilindrosDisponibles;
@@ -519,10 +527,6 @@ namespace ControlCilindros
 
             cbCilindros.DrawMode = DrawMode.OwnerDrawFixed;
             cbCilindros.DrawItem += CbCilindros_DrawItem;
-
-            cbCilindros.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
-            cbCilindros.AutoCompleteSource = AutoCompleteSource.ListItems;
-
             cbCilindros.SelectedIndex = -1;
         }
 
@@ -557,7 +561,7 @@ namespace ControlCilindros
 
 
 
-        private void Form1_Load_1(object sender, EventArgs e)
+        public void Form1_Load_1(object sender, EventArgs e)
         {
             if (this.InvokeRequired)
             {
@@ -581,9 +585,11 @@ namespace ControlCilindros
             ActualizarComboboxClientes();
             ActualizarComboboxVendedores();
             ActualizarComboboxVendedorRecibe();
-            ActualizarComboboxCilindros();
             ActualizarComboboxOperaciones();
             //ActualizarTipoCilindro();
+            //ActualizarEstadosCilindros();
+
+            ActualizarComboboxCilindros();
         }
 
 
@@ -638,12 +644,12 @@ namespace ControlCilindros
                 Consumo = 0,
                 estado = "prestado"
             };
-            var cilindroActual = cilindros.FirstOrDefault(c => c.NumeroCilindro == cilindro.NumeroCilindro);
-
-
 
             transacciones.Add(transaccion);
             GuardarDatos(RutaTransacciones, transacciones);
+
+            // Imprimir el ticket
+            ImprimirTicket(transaccion);
 
             MessageBox.Show($"Transacción registrada exitosamente.", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -878,7 +884,90 @@ namespace ControlCilindros
 
         }
 
+        private void ImprimirTicket(Transaccion transaccion)
+        {
+            try
+            {
+                // Crear el ticket
+                var ticket = new Ticket
+                {
+                    Cliente = transaccion.Cliente.Nombre,
+                    Vendedor = transaccion.Vendedor.Nombre,
+                    Cilindro = transaccion.CilindroInfo,
+                    NumeroCilindro = transaccion.Cilindro.NumeroCilindro,
+                    Peso = transaccion.PesoFinal,
+                    Fecha = transaccion.Fecha,
+                    Tipo = transaccion.Cilindro.Tipo
+                };
 
+                PrintDocument pd = new PrintDocument();
+                pd.PrintPage += (sender, e) =>
+                {
+                    Graphics graphics = e.Graphics;
+                    Font font = new Font("Courier New", 10);
+                    Font font2 = new Font("Courier New", 10);
+                    Font fontBold = new Font("Courier New", 10, FontStyle.Bold);
+                    Font fontTitle = new Font("Courier New", 14, FontStyle.Bold);
+
+                    float startX = 10;
+                    float startY = 10;
+                    float offset = 20;
+
+                    graphics.DrawString("CONTROL DE CILINDROS", fontTitle, Brushes.Black, startX, startY);
+                    startY += offset + 10;
+
+                    graphics.DrawString("--------------------------------", font, Brushes.Black, startX, startY);
+                    startY += offset;
+
+                    graphics.DrawString($"FECHA: {ticket.Fecha:g}", fontBold, Brushes.Black, startX, startY);
+                    startY += offset;
+
+                    graphics.DrawString($"CLIENTE: {ticket.Cliente}", fontBold, Brushes.Black, startX, startY);
+                    startY += offset;
+
+                    graphics.DrawString($"VENDEDOR: {ticket.Vendedor}", fontBold, Brushes.Black, startX, startY);
+                    startY += offset;
+
+                    graphics.DrawString($"CILINDRO: {ticket.NumeroCilindro}", fontBold, Brushes.Black, startX, startY);
+                    startY += offset;
+
+                    graphics.DrawString($"TIPO: {ticket.Tipo}", fontBold, Brushes.Black, startX, startY);
+                    startY += offset;
+
+                    graphics.DrawString($"PESO: {ticket.Peso:N0} gr", fontBold, Brushes.Black, startX, startY);
+                    startY += offset;
+
+                    graphics.DrawString($"ESTADO: {ticket.Estado}", fontBold, Brushes.Black, startX, startY);
+                    startY += offset + 10;
+
+                    graphics.DrawString("--------------------------------", font, Brushes.Black, startX, startY);
+                    startY += offset;
+
+                    graphics.DrawString("**DEBE DEVOLVER EL CILINDRO**", fontBold, Brushes.Black, startX, startY);
+                    startY += offset;
+                    graphics.DrawString("EN EL MISMO ESTADO EN QUE SE", fontBold, Brushes.Black, startX, startY);
+                    startY += offset;
+                    graphics.DrawString("LO ENTREGAMOS", fontBold, Brushes.Black, startX, startY);
+                    startY += offset;
+                    graphics.DrawString("Gracias por su preferencia", font, Brushes.Black, startX, startY);
+                    startY += offset;
+                    graphics.DrawString("DevMelk", font2, Brushes.Black, startX, startY);
+                };
+
+                PrintDialog printDialog = new PrintDialog();
+                printDialog.Document = pd;
+
+
+                if (printDialog.ShowDialog() == DialogResult.OK)
+                {
+                    pd.Print();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al imprimir el ticket: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
 
         private void btnEliminarTransaccion_Click_1(object sender, EventArgs e)
         {
@@ -950,6 +1039,12 @@ namespace ControlCilindros
 
             MessageBox.Show("Transacción eliminada correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Admin admin = new Admin(this);
+            admin.Show();
         }
     }
 }

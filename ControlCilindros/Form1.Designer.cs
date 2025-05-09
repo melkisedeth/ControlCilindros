@@ -52,6 +52,8 @@
             label6 = new Label();
             button1 = new Button();
             btnEliminarTransaccion = new Button();
+            label7 = new Label();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvClientes).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvTransacciones).BeginInit();
             ((System.ComponentModel.ISupportInitialize)gridCilindroRecibido).BeginInit();
@@ -326,6 +328,27 @@
             btnEliminarTransaccion.UseVisualStyleBackColor = false;
             btnEliminarTransaccion.Click += btnEliminarTransaccion_Click_1;
             // 
+            // label7
+            // 
+            label7.BackColor = SystemColors.ControlLightLight;
+            label7.Location = new Point(1332, 709);
+            label7.Name = "label7";
+            label7.Size = new Size(53, 17);
+            label7.TabIndex = 41;
+            label7.Text = "V. 1.01.8";
+            // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.ButtonHighlight;
+            button2.FlatAppearance.BorderColor = Color.FromArgb(0, 192, 192);
+            button2.Location = new Point(1275, 68);
+            button2.Name = "button2";
+            button2.Size = new Size(101, 25);
+            button2.TabIndex = 42;
+            button2.Text = "Administración";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
             // Form1
             // 
             AccessibleName = "Control de cilindros";
@@ -334,6 +357,8 @@
             BackColor = SystemColors.InactiveCaption;
             BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(1388, 727);
+            Controls.Add(button2);
+            Controls.Add(label7);
             Controls.Add(btnEliminarTransaccion);
             Controls.Add(button1);
             Controls.Add(label6);
@@ -396,5 +421,7 @@
         public DataGridView dgvTransacciones;
         private Button button1;
         private Button btnEliminarTransaccion;
+        private Label label7;
+        private Button button2;
     }
 }

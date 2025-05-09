@@ -3,108 +3,230 @@
     "Id": 1,
     "NumeroCilindro": "8",
     "Tipo": "R22",
-    "Estado": null,
+    "Estado": "NoDisponible",
     "PesoInicial": 10380,
     "PrecioPorGramo": 65,
-    "ClienteInfo": "8 - R22"
+    "ClienteInfo": "8 - R22",
+    "Disponible": false
   },
   {
     "Id": 2,
     "NumeroCilindro": "15",
     "Tipo": "R410",
-    "Estado": agotado,
+    "Estado": "NoDisponible",
     "PesoInicial": 6000,
     "PrecioPorGramo": 55,
-    "ClienteInfo": "15 - R410"
+    "ClienteInfo": "15 - R410",
+    "Disponible": false
   },
   {
     "Id": 3,
     "NumeroCilindro": "1",
     "Tipo": "R22",
-    "Estado": null,
+    "Estado": "NoDisponible",
     "PesoInicial": 11090,
     "PrecioPorGramo": 65,
-    "ClienteInfo": "1 - R22"
+    "ClienteInfo": "1 - R22",
+    "Disponible": false
   },
   {
     "Id": 4,
     "NumeroCilindro": "3",
     "Tipo": "R410",
-    "Estado": agotado,
+    "Estado": "NoDisponible",
     "PesoInicial": 5360,
     "PrecioPorGramo": 55,
-    "ClienteInfo": "3 - R410"
+    "ClienteInfo": "3 - R410",
+    "Disponible": false
   },
   {
     "Id": 5,
     "NumeroCilindro": "10",
     "Tipo": "R410",
-    "Estado": agotado,
+    "Estado": "NoDisponible",
     "PesoInicial": 4610,
     "PrecioPorGramo": 55,
-    "ClienteInfo": "10 - R410"
+    "ClienteInfo": "10 - R410",
+    "Disponible": false
   },
   {
     "Id": 6,
     "NumeroCilindro": "18",
     "Tipo": "R410",
-    "Estado": agotado,
+    "Estado": "NoDisponible",
     "PesoInicial": 14805,
     "PrecioPorGramo": 55,
-    "ClienteInfo": "18 - R410"
+    "ClienteInfo": "18 - R410",
+    "Disponible": false
   },
   {
     "Id": 7,
-    "NumeroCilindro": "7",
+    "NumeroCilindro": "12",
     "Tipo": "R134",
-    "Estado": null,
+    "Estado": "NoDisponible",
     "PesoInicial": 16045,
-    "PrecioPorGramo": 45,
-    "ClienteInfo": "7 - R134"
+    "PrecioPorGramo": 80,
+    "ClienteInfo": "12 - R134",
+    "Disponible": false
   },
   {
     "Id": 8,
     "NumeroCilindro": "23",
     "Tipo": "R410",
-    "Estado": agotado,
+    "Estado": "NoDisponible",
     "PesoInicial": 14745,
     "PrecioPorGramo": 55,
-    "ClienteInfo": "23 - R410"
+    "ClienteInfo": "23 - R410",
+    "Disponible": false
   },
   {
     "Id": 9,
     "NumeroCilindro": "7",
     "Tipo": "R410",
-    "Estado": agotado,
+    "Estado": "Disponible",
     "PesoInicial": 14735,
-    "PrecioPorGramo": 55,
-    "ClienteInfo": "7 - R410"
+    "PrecioPorGramo": 70,
+    "ClienteInfo": "7 - R410",
+    "Disponible": true
   },
   {
     "Id": 10,
     "NumeroCilindro": "2",
     "Tipo": "R22",
-    "Estado": null,
+    "Estado": "NoDisponible",
     "PesoInicial": 16010,
     "PrecioPorGramo": 65,
-    "ClienteInfo": "2 - R22"
+    "ClienteInfo": "2 - R22",
+    "Disponible": false
   },
   {
     "Id": 11,
     "NumeroCilindro": "8",
     "Tipo": "R22",
-    "Estado": null,
+    "Estado": "NoDisponible",
     "PesoInicial": 5280,
     "PrecioPorGramo": 65,
-    "ClienteInfo": "8 - R22"
+    "ClienteInfo": "8 - R22",
+    "Disponible": false
   },
   {
     "Id": 12,
     "NumeroCilindro": "20",
     "Tipo": "R22",
-    "Estado": null,
+    "Estado": "Disponible",
     "PesoInicial": 16000,
-    "PrecioPorGramo": 65,
-    "ClienteInfo": "20 - R22"
+    "PrecioPorGramo": 75,
+    "ClienteInfo": "20 - R22",
+    "Disponible": true
+  },
+  {
+    "Id": 13,
+    "NumeroCilindro": "13",
+    "Tipo": "R22",
+    "Estado": "Disponible",
+    "PesoInicial": 15790,
+    "PrecioPorGramo": 75,
+    "ClienteInfo": "13 - R22",
+    "Disponible": true
+  },
+  {
+    "Id": 14,
+    "NumeroCilindro": "9",
+    "Tipo": "R410",
+    "Estado": "Disponible",
+    "PesoInicial": 14290,
+    "PrecioPorGramo": 70,
+    "ClienteInfo": "9 - R410",
+    "Disponible": true
+  },
+  {
+    "Id": 15,
+    "NumeroCilindro": "11",
+    "Tipo": "R410",
+    "Estado": "Disponible",
+    "PesoInicial": 14820,
+    "PrecioPorGramo": 70,
+    "ClienteInfo": "11 - R410",
+    "Disponible": true
+  },
+  {
+    "Id": 16,
+    "NumeroCilindro": "30",
+    "Tipo": "R410",
+    "Estado": "Disponible",
+    "PesoInicial": 14810,
+    "PrecioPorGramo": 70,
+    "ClienteInfo": "30 - R410",
+    "Disponible": true
+  },
+  {
+    "Id": 17,
+    "NumeroCilindro": "14",
+    "Tipo": "R410",
+    "Estado": "Disponible",
+    "PesoInicial": 14875,
+    "PrecioPorGramo": 70,
+    "ClienteInfo": "14 - R410",
+    "Disponible": true
+  },
+  {
+    "Id": 18,
+    "NumeroCilindro": "16",
+    "Tipo": "R22",
+    "Estado": "Disponible",
+    "PesoInicial": 16050,
+    "PrecioPorGramo": 75,
+    "ClienteInfo": "16 - R22",
+    "Disponible": true
+  },
+  {
+    "Id": 19,
+    "NumeroCilindro": "17",
+    "Tipo": "R22",
+    "Estado": "Disponible",
+    "PesoInicial": 16120,
+    "PrecioPorGramo": 75,
+    "ClienteInfo": "17 - R22",
+    "Disponible": true
+  },
+  {
+    "Id": 20,
+    "NumeroCilindro": "19",
+    "Tipo": "R22",
+    "Estado": "Disponible",
+    "PesoInicial": 15995,
+    "PrecioPorGramo": 75,
+    "ClienteInfo": "19 - R22",
+    "Disponible": true
+  },
+  {
+    "Id": 21,
+    "NumeroCilindro": "63",
+    "Tipo": "R22",
+    "Estado": "NoDisponible",
+    "PesoInicial": 3256,
+    "PrecioPorGramo": 75,
+    "ClienteInfo": "63 - R22",
+    "Disponible": false
+  },
+  {
+    "Id": 22,
+    "NumeroCilindro": "54",
+    "Tipo": "R22",
+    "Estado": "Disponible",
+    "PesoInicial": 4312,
+    "PrecioPorGramo": 75,
+    "ClienteInfo": "54 - R22",
+    "Disponible": true
+  },
+  {
+    "Id": 23,
+    "NumeroCilindro": "33",
+    "Tipo": "R22",
+    "Estado": "Disponible",
+    "PesoInicial": 34234,
+    "PrecioPorGramo": 75,
+    "ClienteInfo": "33 - R22",
+    "Disponible": true
   }
 ]

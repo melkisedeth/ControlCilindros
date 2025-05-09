@@ -20,3 +20,5 @@ C:\Users\Usuario\source\repos\ControlCilindros\ControlCilindros\obj\Release\net8
 C:\Users\Usuario\source\repos\ControlCilindros\ControlCilindros\obj\Release\net8.0-windows\ControlCilindros.genruntimeconfig.cache
 C:\Users\Usuario\source\repos\ControlCilindros\ControlCilindros\obj\Release\net8.0-windows\ref\ControlCilindros.dll
 C:\Users\Usuario\source\repos\ControlCilindros\ControlCilindros\obj\Release\net8.0-windows\ControlCilindros.Form3.resources
+C:\Users\Usuario\source\repos\ControlCilindros\ControlCilindros\obj\Release\net8.0-windows\ControlCilindros.sourcelink.json
+C:\Users\Usuario\source\repos\ControlCilindros\ControlCilindros\obj\Release\net8.0-windows\ControlCilindros.Admin.resources
