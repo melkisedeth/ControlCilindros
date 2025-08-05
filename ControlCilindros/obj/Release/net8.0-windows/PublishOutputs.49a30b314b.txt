@@ -1,0 +1,6 @@
+C:\Users\Usuario\Desktop\PUBLICACIONES\ControlCilindros\ControlCilindros.exe
+C:\Users\Usuario\Desktop\PUBLICACIONES\ControlCilindros\ControlCilindros.dll
+C:\Users\Usuario\Desktop\PUBLICACIONES\ControlCilindros\ControlCilindros.deps.json
+C:\Users\Usuario\Desktop\PUBLICACIONES\ControlCilindros\ControlCilindros.runtimeconfig.json
+C:\Users\Usuario\Desktop\PUBLICACIONES\ControlCilindros\ControlCilindros.pdb
+C:\Users\Usuario\Desktop\PUBLICACIONES\ControlCilindros\MaterialSkin.dll

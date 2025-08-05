@@ -2,7 +2,7 @@
   {
     "Id": 77,
     "Nombre": "ADIVER MONTEJO",
-    "Telefono": "111111111"
+    "Telefono": "3226505361"
   },
   {
     "Id": 32,
@@ -16,7 +16,7 @@
   },
   {
     "Id": 50,
-    "Nombre": "alejandro daza el tara",
+    "Nombre": "ALEJANDO DAZA EL TARA",
     "Telefono": "3108281820"
   },
   {
@@ -47,7 +47,7 @@
   {
     "Id": 76,
     "Nombre": "ANDRES MORALES",
-    "Telefono": "111111111"
+    "Telefono": "3215303733"
   },
   {
     "Id": 24,
@@ -75,14 +75,14 @@
     "Telefono": "3206312146"
   },
   {
-    "Id": 57,
-    "Nombre": "DANIEL MIER ",
-    "Telefono": "3127032182"
-  },
-  {
     "Id": 46,
     "Nombre": "DEIVER LOBO",
     "Telefono": "3113465467"
+  },
+  {
+    "Id": 91,
+    "Nombre": "EDGAR GONZALEZ",
+    "Telefono": "3133554224"
   },
   {
     "Id": 7,
@@ -120,11 +120,6 @@
     "Telefono": "3142515456"
   },
   {
-    "Id": 63,
-    "Nombre": "GEINER PUELLO",
-    "Telefono": "3116455940"
-  },
-  {
     "Id": 40,
     "Nombre": "HEINER MENDEZ",
     "Telefono": "3126275316"
@@ -135,8 +130,18 @@
     "Telefono": "3168869690"
   },
   {
+    "Id": 79,
+    "Nombre": "HERIVERTO OCHOA",
+    "Telefono": "3145351081"
+  },
+  {
     "Id": 8,
     "Nombre": "HERMES GUTIERREZ",
+    "Telefono": "3216732450"
+  },
+  {
+    "Id": 78,
+    "Nombre": "HERMES TRUJILLO",
     "Telefono": "3216732450"
   },
   {
@@ -205,9 +210,24 @@
     "Telefono": "3116943188"
   },
   {
+    "Id": 87,
+    "Nombre": "JESUS ACU\u00D1AS ",
+    "Telefono": "3216052169"
+  },
+  {
     "Id": 20,
     "Nombre": "JESUS MARTINEZ ",
     "Telefono": "3208193840"
+  },
+  {
+    "Id": 91,
+    "Nombre": "JHONIS RIOS",
+    "Telefono": "3168299280"
+  },
+  {
+    "Id": 92,
+    "Nombre": "JONIS RIOS",
+    "Telefono": "3168299280"
   },
   {
     "Id": 42,
@@ -230,6 +250,11 @@
     "Telefono": "3105325301"
   },
   {
+    "Id": 89,
+    "Nombre": "JOSE LOBO",
+    "Telefono": "3135376801"
+  },
+  {
     "Id": 30,
     "Nombre": "JOSE OLIVELLA",
     "Telefono": "3107036862"
@@ -250,9 +275,19 @@
     "Telefono": "3205263619"
   },
   {
+    "Id": 88,
+    "Nombre": "LUIS ALVERTO ROBLES",
+    "Telefono": "3136649095"
+  },
+  {
     "Id": 2,
     "Nombre": "LUIS ESTEVES",
     "Telefono": "3126938468"
+  },
+  {
+    "Id": 90,
+    "Nombre": "LUIS GUTIERREZ",
+    "Telefono": "3161960771"
   },
   {
     "Id": 28,
@@ -280,8 +315,13 @@
     "Telefono": "33146403725"
   },
   {
-    "Id": 18,
-    "Nombre": "MARLON RUIZ ",
+    "Id": 79,
+    "Nombre": "MARLON MENDOZA",
+    "Telefono": "3185808483"
+  },
+  {
+    "Id": 84,
+    "Nombre": "MARLON RUIS ",
     "Telefono": "3145891662"
   },
   {
@@ -310,6 +350,11 @@
     "Telefono": "MORALES"
   },
   {
+    "Id": 80,
+    "Nombre": "OSCAR MORALES",
+    "Telefono": "3147119059"
+  },
+  {
     "Id": 52,
     "Nombre": "RAFAEL",
     "Telefono": "3244026993"
@@ -335,9 +380,24 @@
     "Telefono": "3114149791"
   },
   {
+    "Id": 81,
+    "Nombre": "RICARDO GARCERAN",
+    "Telefono": "3008091947"
+  },
+  {
+    "Id": 83,
+    "Nombre": "RICARDO GUERRERO",
+    "Telefono": "3008091947"
+  },
+  {
     "Id": 53,
     "Nombre": "RICHARD MORALES",
     "Telefono": "3116129291"
+  },
+  {
+    "Id": 85,
+    "Nombre": "ROBAYO ",
+    "Telefono": "3116757483"
   },
   {
     "Id": 65,
@@ -348,6 +408,11 @@
     "Id": 14,
     "Nombre": "SE\u00D1OR LUIS",
     "Telefono": "3103634075"
+  },
+  {
+    "Id": 82,
+    "Nombre": "SILFREDO TRUJILLO",
+    "Telefono": "3152464764"
   },
   {
     "Id": 39,
@@ -370,14 +435,14 @@
     "Telefono": "3148867242"
   },
   {
+    "Id": 73,
+    "Nombre": "WILMER PICADO",
+    "Telefono": "3233041597"
+  },
+  {
     "Id": 70,
     "Nombre": "WILSON  CARRILLO ",
     "Telefono": "3145632057"
-  },
-  {
-    "Id": 73,
-    "Nombre": "wimer picado",
-    "Telefono": "3233041597"
   },
   {
     "Id": 68,
@@ -385,8 +450,8 @@
     "Telefono": "3016844142"
   },
   {
-    "Id": 78,
-    "Nombre": "HERMES TRUJILLO",
-    "Telefono": "3216732450"
+    "Id": 91,
+    "Nombre": "JHONATAN PINTO",
+    "Telefono": "3103525604"
   }
 ]

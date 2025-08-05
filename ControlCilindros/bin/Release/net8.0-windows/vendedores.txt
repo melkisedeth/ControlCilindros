@@ -8,16 +8,8 @@
     "Nombre": "IVAN TOBIAS"
   },
   {
-    "Id": 3,
-    "Nombre": "ANDRES BARRAZA"
-  },
-  {
     "Id": 4,
     "Nombre": "LEONARDO MOLINA"
-  },
-  {
-    "Id": 5,
-    "Nombre": "ALVARO MARIN"
   },
   {
     "Id": 6,
@@ -37,14 +29,14 @@
   },
   {
     "Id": 10,
-    "Nombre": "Melkisedeth10"
+    "Nombre": "NICHE"
   },
   {
     "Id": 11,
-    "Nombre": "Yefrin alf"
+    "Nombre": "JEFERSON"
   },
   {
     "Id": 12,
-    "Nombre": "asd"
+    "Nombre": "FRANCISCO"
   }
 ]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControlCilindros")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f27200d49b988658ccc2d1bde2a45e4c4cb34291")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13a68c6fee21d5248602122e08366d351e6fbbc0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ControlCilindros")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ControlCilindros")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -360,6 +360,7 @@ namespace ControlCilindros
                 {
                     Id = t.Id,
                     Cliente = t.Cliente.Nombre,
+                    Telefono = t.Cliente.Telefono,  
                     Vendedor = t.Vendedor.Nombre,
                     Cilindro = t.CilindroInfo,
                     FechaEntregado = t.Fecha,
@@ -739,6 +740,96 @@ namespace ControlCilindros
             }
         }
 
+        private void MostrarResumenPago(Transaccion transaccion)
+        {
+            string mensaje = $"RESUMEN DE PAGO\n\n" +
+                            $"Cliente: {transaccion.Cliente.Nombre}\n" +
+                            $"Cilindro: {transaccion.CilindroInfo}\n" +
+                            $"Peso inicial: {transaccion.PesoFinal + transaccion.Consumo:N0}g\n" +
+                            $"Peso devuelto: {transaccion.PesoFinal:N0}g\n" +
+                            $"Consumo: {transaccion.Consumo:N0}g\n" +
+                            $"Precio por gramo: {transaccion.Cilindro.PrecioPorGramo:C2}\n" +
+                            $"Total a pagar: {transaccion.Total:C2}\n" +
+                            $"Monto recibido: {transaccion.MontoRecibido:C2}\n" +
+                            $"Cambio: {transaccion.Cambio:C2}";
+
+            MessageBox.Show(mensaje, "Resumen de Pago", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void GenerarTicketDevolucion(Transaccion transaccion)
+        {
+            try
+            {
+                PrintDocument pd = new PrintDocument();
+                pd.PrintPage += (sender, e) =>
+                {
+                    Graphics graphics = e.Graphics;
+                    Font font = new Font("Courier New", 10);
+                    Font fontBold = new Font("Courier New", 12, FontStyle.Bold);
+                    Font fontTitle = new Font("Courier New", 14, FontStyle.Bold);
+
+                    float startX = 10;
+                    float startY = 10;
+                    float offset = 20;
+
+                    // Encabezado
+                    graphics.DrawString("CONTROL DE CILINDROS", fontTitle, Brushes.Black, startX, startY);
+                    startY += offset + 10;
+                    graphics.DrawString("RECIBO DE DEVOLUCIÓN", fontBold, Brushes.Black, startX, startY);
+                    startY += offset;
+                    graphics.DrawString("--------------------------------", font, Brushes.Black, startX, startY);
+                    startY += offset;
+
+                    // Datos de la transacción
+                    graphics.DrawString($"Fecha: {transaccion.FechaRecibido:g}", font, Brushes.Black, startX, startY);
+                    startY += offset;
+                    graphics.DrawString($"Cliente: {transaccion.Cliente.Nombre}", font, Brushes.Black, startX, startY);
+                    startY += offset;
+                    graphics.DrawString($"Vendedor: {transaccion.VendedorRecibe.Nombre}", font, Brushes.Black, startX, startY);
+                    startY += offset;
+                    graphics.DrawString($"Cilindro: {transaccion.CilindroInfo}", font, Brushes.Black, startX, startY);
+                    startY += offset;
+                    graphics.DrawString("--------------------------------", font, Brushes.Black, startX, startY);
+                    startY += offset;
+
+                    // Detalles del consumo
+                    graphics.DrawString($"Peso inicial: {transaccion.PesoFinal + transaccion.Consumo:N0}g", font, Brushes.Black, startX, startY);
+                    startY += offset;
+                    graphics.DrawString($"Peso devuelto: {transaccion.PesoFinal:N0}g", font, Brushes.Black, startX, startY);
+                    startY += offset;
+                    graphics.DrawString($"Consumo: {transaccion.Consumo:N0}g", font, Brushes.Black, startX, startY);
+                    startY += offset;
+                    graphics.DrawString($"Precio por gramo: {transaccion.Cilindro.PrecioPorGramo:C2}", font, Brushes.Black, startX, startY);
+                    startY += offset;
+                    graphics.DrawString("--------------------------------", font, Brushes.Black, startX, startY);
+                    startY += offset;
+
+                    // Totales
+                    graphics.DrawString($"TOTAL A PAGAR: {transaccion.Total:C2}", fontBold, Brushes.Black, startX, startY);
+                    startY += offset;
+                    graphics.DrawString($"MONTO RECIBIDO: {transaccion.MontoRecibido:C2}", font, Brushes.Black, startX, startY);
+                    startY += offset;
+                    graphics.DrawString($"CAMBIO: {transaccion.Cambio:C2}", font, Brushes.Black, startX, startY);
+                    startY += offset + 10;
+                    graphics.DrawString("--------------------------------", font, Brushes.Black, startX, startY);
+                    startY += offset;
+                    graphics.DrawString("¡Gracias por su preferencia!", font, Brushes.Black, startX, startY);
+                };
+
+                // Mostrar diálogo de impresión
+                PrintDialog printDialog = new PrintDialog();
+                printDialog.Document = pd;
+
+                if (printDialog.ShowDialog() == DialogResult.OK)
+                {
+                    pd.Print();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al generar el ticket: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
 
 
         private void cbClientes_SelectedIndexChanged(object sender, EventArgs e)
@@ -973,72 +1064,68 @@ namespace ControlCilindros
         {
             if (dgvTransacciones.SelectedRows.Count == 0)
             {
-                MessageBox.Show("Por favor, seleccione una transacción para eliminar.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Por favor, seleccione una transacción para eliminar.",
+                              "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            var transaccionSeleccionada = (TransaccionViewModelEntrega)dgvTransacciones.SelectedRows[0].DataBoundItem;
-            var transaccionAEliminar = transacciones.FirstOrDefault(t => t.Id == transaccionSeleccionada.Id);
+            var selectedRow = dgvTransacciones.SelectedRows[0];
+            int idTransaccion = (int)selectedRow.Cells["Id"].Value;
+
+            var transaccionAEliminar = transacciones.FirstOrDefault(t => t.Id == idTransaccion);
 
             if (transaccionAEliminar == null)
             {
-                MessageBox.Show("No se encontró la transacción seleccionada.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("No se encontró la transacción seleccionada.",
+                              "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            string resumenTransaccion = $"ID: {transaccionAEliminar.Id}\n" +
-                                        $"Cliente: {transaccionAEliminar.Cliente.Nombre}\n" +
-                                        $"Vendedor: {transaccionAEliminar.Vendedor.Nombre}\n" +
-                                        $"Cilindro: {transaccionAEliminar.CilindroInfo}\n" +
-                                        $"Fecha: {transaccionAEliminar.Fecha}\n" +
-                                        $"Peso Final: {transaccionAEliminar.PesoFinal:N0} gr\n" +
-                                        "¿Está seguro de que desea eliminar esta transacción?";
+            string mensajeConfirmacion = $"¿Está seguro de eliminar esta transacción?\n\n" +
+                                       $"ID: {transaccionAEliminar.Id}\n" +
+                                       $"Cliente: {transaccionAEliminar.Cliente?.Nombre}\n" +
+                                       $"Cilindro: {transaccionAEliminar.CilindroInfo}\n" +
+                                       $"Fecha: {transaccionAEliminar.Fecha:g}";
 
-            var confirmacion = MessageBox.Show(
-                resumenTransaccion,
-                "Confirmar Eliminación",
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Warning
-            );
+            DialogResult confirmacion = MessageBox.Show(mensajeConfirmacion,
+                                                     "Confirmar Eliminación",
+                                                     MessageBoxButtons.YesNo,
+                                                     MessageBoxIcon.Warning);
 
             if (confirmacion != DialogResult.Yes)
             {
                 return;
             }
 
-            string contraseñaAdmin = "admin123";
-            bool contraseñaCorrecta = false;
+            string contraseñaCorrecta = "123"; // Cambia esto por tu contraseña real
+            string contraseñaIngresada = Microsoft.VisualBasic.Interaction.InputBox(
+                "Ingrese la contraseña de administrador para confirmar:",
+                "Autenticación Requerida",
+                "");
 
-            while (!contraseñaCorrecta)
+            if (contraseñaIngresada != contraseñaCorrecta)
             {
-                string contraseñaIngresada = Microsoft.VisualBasic.Interaction.InputBox("Ingrese la contraseña de administrador:", "Verificación de Contraseña", "");
-
-                if (contraseñaIngresada == contraseñaAdmin)
-                {
-                    contraseñaCorrecta = true;
-                }
-                else
-                {
-                    var reintentar = MessageBox.Show(
-                        "Contraseña incorrecta. ¿Desea intentarlo de nuevo?",
-                        "Error",
-                        MessageBoxButtons.YesNo,
-                        MessageBoxIcon.Error
-                    );
-
-                    if (reintentar != DialogResult.Yes)
-                    {
-                        return;
-                    }
-                }
+                MessageBox.Show("Contraseña incorrecta. Operación cancelada.",
+                               "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
 
             transacciones.Remove(transaccionAEliminar);
+
+            if (transaccionAEliminar.estado == "prestado" && transaccionAEliminar.Cilindro != null)
+            {
+                transaccionAEliminar.Cilindro.Estado = "Disponible";
+                GuardarDatos(RutaCilindros, cilindros); // Guardar cambio de estado del cilindro
+            }
+
             GuardarDatos(RutaTransacciones, transacciones);
+
             ActualizarTransaccionesGrid();
+            ActualizarComboboxCilindros();
+            ActualizarComboboxOperaciones();
 
-            MessageBox.Show("Transacción eliminada correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+            MessageBox.Show("Transacción eliminada correctamente.",
+                           "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button2_Click(object sender, EventArgs e)

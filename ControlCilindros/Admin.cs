@@ -435,14 +435,6 @@ namespace ControlCilindros
 
             dgvCilindros.Columns.Add(new DataGridViewTextBoxColumn
             {
-                Name = "Id",
-                DataPropertyName = "Id",
-                HeaderText = "ID",
-                ReadOnly = true
-            });
-
-            dgvCilindros.Columns.Add(new DataGridViewTextBoxColumn
-            {
                 Name = "NumeroCilindro",
                 DataPropertyName = "NumeroCilindro",
                 HeaderText = "Número",
@@ -763,14 +755,39 @@ namespace ControlCilindros
         {
             txtNombreVendedor.Clear();
         }
-        private bool EstaAsociadoATransaccion(int idVendedor)
+        private bool EstaAsociadoATransaccionPrestada(int idVendedor)
         {
             const string RutaTransacciones = "transacciones.txt";
-            var transacciones = CargarDatos<Transaccion>(RutaTransacciones);
 
-            return transacciones.Any(t =>
-                t.Vendedor?.Id == idVendedor ||
-                t.VendedorRecibe?.Id == idVendedor);
+            // Si no existe el archivo, no hay transacciones
+            if (!File.Exists(RutaTransacciones))
+            {
+                return false;
+            }
+
+            try
+            {
+                // Cargar transacciones
+                var json = File.ReadAllText(RutaTransacciones);
+                if (string.IsNullOrWhiteSpace(json))
+                {
+                    return false;
+                }
+
+                var transacciones = JsonSerializer.Deserialize<List<Transaccion>>(json) ?? new List<Transaccion>();
+
+                // Verificar solo transacciones con estado "prestado"
+                return transacciones.Any(t =>
+                    t.estado == "prestado" && // Solo considerar transacciones prestadas
+                    (t.Vendedor != null && t.Vendedor.Id == idVendedor ||
+                     t.VendedorRecibe != null && t.VendedorRecibe.Id == idVendedor));
+            }
+            catch (Exception ex)
+            {
+                // En caso de error, asumir que no está asociado para no bloquear la operación
+                Console.WriteLine($"Error al verificar transacciones: {ex.Message}");
+                return false;
+            }
         }
         private void btnDeleteVendedor_Click(object sender, EventArgs e)
         {
@@ -784,7 +801,7 @@ namespace ControlCilindros
             var vendedor = (Vendedor)dgvVendedores.SelectedRows[0].DataBoundItem;
 
             // Verificar si el vendedor está asociado a alguna transacción
-            if (EstaAsociadoATransaccion(vendedor.Id))
+            if (EstaAsociadoATransaccionPrestada(vendedor.Id))
             {
                 MessageBox.Show("No se puede eliminar este vendedor porque está asociado a transacciones existentes.",
                                "Operación no permitida",

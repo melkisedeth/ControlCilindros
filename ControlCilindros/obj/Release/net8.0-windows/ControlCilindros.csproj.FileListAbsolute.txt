@@ -22,3 +22,4 @@ C:\Users\Usuario\source\repos\ControlCilindros\ControlCilindros\obj\Release\net8
 C:\Users\Usuario\source\repos\ControlCilindros\ControlCilindros\obj\Release\net8.0-windows\ControlCilindros.Form3.resources
 C:\Users\Usuario\source\repos\ControlCilindros\ControlCilindros\obj\Release\net8.0-windows\ControlCilindros.sourcelink.json
 C:\Users\Usuario\source\repos\ControlCilindros\ControlCilindros\obj\Release\net8.0-windows\ControlCilindros.Admin.resources
+C:\Users\Usuario\source\repos\ControlCilindros\ControlCilindros\obj\Release\net8.0-windows\ControlCilindros.FormPago.resources

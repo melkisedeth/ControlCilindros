@@ -4053,39 +4053,6 @@
     "CilindroInfo": "23 R410"
   },
   {
-    "Id": 620,
-    "Cliente": {
-      "Id": 15,
-      "Nombre": "MEMIN",
-      "Telefono": "3113279731"
-    },
-    "Vendedor": {
-      "Id": 8,
-      "Nombre": "KEVIN RAMOS"
-    },
-    "VendedorRecibe": {
-      "Id": 1,
-      "Nombre": "JUNIOR REALES"
-    },
-    "Cilindro": {
-      "Id": 6,
-      "NumeroCilindro": "18",
-      "Tipo": "R410",
-      "Estado": null,
-      "PesoInicial": 14805,
-      "PrecioPorGramo": 55,
-      "ClienteInfo": "18 - R410"
-    },
-    "Fecha": "2025-02-18T12:06:46.4177996-05:00",
-    "FechaRecibido": "2025-02-18T12:40:53.7139858-05:00",
-    "PesoFinal": 5570,
-    "Consumo": 65,
-    "Total": 3575,
-    "estado": "devuelto",
-    "ClienteInfo": "620 - MEMIN - KEVIN RAMOS - 18 R410  - 5570",
-    "CilindroInfo": "18 R410"
-  },
-  {
     "Id": 603,
     "Cliente": {
       "Id": 3,
