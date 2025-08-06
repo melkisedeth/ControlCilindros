@@ -12,10 +12,6 @@
     "Nombre": "LEONARDO MOLINA"
   },
   {
-    "Id": 6,
-    "Nombre": "DIEGO TOBIAS"
-  },
-  {
     "Id": 7,
     "Nombre": "MELKY TOBIAS"
   },
@@ -26,10 +22,6 @@
   {
     "Id": 9,
     "Nombre": "JUNIOR REALES"
-  },
-  {
-    "Id": 10,
-    "Nombre": "NICHE"
   },
   {
     "Id": 11,

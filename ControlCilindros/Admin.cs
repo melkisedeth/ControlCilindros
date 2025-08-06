@@ -185,35 +185,32 @@ namespace ControlCilindros
         {
             if (e.RowIndex < 0 || e.ColumnIndex < 0) return;
 
-            var cilindro = dgvCilindros.Rows[e.RowIndex].DataBoundItem as Cilindro;
+            var grid = (DataGridView)sender;
+            var cilindro = grid.Rows[e.RowIndex].DataBoundItem as Cilindro;
             if (cilindro == null) return;
 
-            bool estaPrestado = EstaPrestado(cilindro.Id);
+            // Solo aplicar formato si es la columna de Tipo
+            if (grid.Columns[e.ColumnIndex].Name == "Tipo")
+            {
+                // Pre-cache los colores
+                var backColor = cilindro.Tipo switch
+                {
+                    "R22" => Color.LightGreen,
+                    "R410" => Color.LightPink,
+                    "R134" => Color.LightBlue,
+                    _ => Color.White
+                };
 
-            if (estaPrestado)
+                e.CellStyle.BackColor = backColor;
+                e.CellStyle.ForeColor = Color.Black;
+            }
+
+            // Marcar cilindros prestados (solo una vez, no en cada render)
+            if (EstaPrestado(cilindro.Id))
             {
                 e.CellStyle.BackColor = Color.LightGray;
                 e.CellStyle.ForeColor = Color.DarkGray;
                 e.CellStyle.Font = new Font(dgvCilindros.Font, FontStyle.Italic);
-            }
-            else
-            {
-                if (dgvCilindros.Columns[e.ColumnIndex].Name == "Tipo")
-                {
-                    switch (cilindro.Tipo)
-                    {
-                        case "R22":
-                            e.CellStyle.BackColor = Color.LightGreen;
-                            break;
-                        case "R410":
-                            e.CellStyle.BackColor = Color.LightPink;
-                            break;
-                        case "R134":
-                            e.CellStyle.BackColor = Color.LightBlue;
-                            break;
-                    }
-                    e.CellStyle.ForeColor = Color.Black;
-                }
             }
         }
 
@@ -531,14 +528,27 @@ namespace ControlCilindros
 
         private void ActualizarGridCilindros()
         {
-            var listaActual = new BindingList<Cilindro>(
-                cilindros
+            dgvCilindros.SuspendLayout();
+
+            try
+            {
+                var listaCilindros = cilindros
                     .OrderBy(c => c.Tipo)
                     .ThenBy(c => int.TryParse(c.NumeroCilindro, out int num) ? num : int.MaxValue)
-                    .ToList()
-            );
-            dgvCilindros.DataSource = null;
-            dgvCilindros.DataSource = listaActual;
+                    .ToList();
+
+                var bindingSource = new BindingSource
+                {
+                    DataSource = listaCilindros
+                };
+
+                dgvCilindros.DataSource = null;
+                dgvCilindros.DataSource = bindingSource;
+            }
+            finally
+            {
+                dgvCilindros.ResumeLayout();
+            }
         }
 
         private List<T> CargarDatos<T>(string rutaArchivo)
@@ -779,8 +789,7 @@ namespace ControlCilindros
                 // Verificar solo transacciones con estado "prestado"
                 return transacciones.Any(t =>
                     t.estado == "prestado" && // Solo considerar transacciones prestadas
-                    (t.Vendedor != null && t.Vendedor.Id == idVendedor ||
-                     t.VendedorRecibe != null && t.VendedorRecibe.Id == idVendedor));
+                    (t.Vendedor?.Id == idVendedor || t.VendedorRecibe?.Id == idVendedor));
             }
             catch (Exception ex)
             {
@@ -789,6 +798,7 @@ namespace ControlCilindros
                 return false;
             }
         }
+
         private void btnDeleteVendedor_Click(object sender, EventArgs e)
         {
             if (dgvVendedores.SelectedRows.Count == 0)
@@ -803,7 +813,7 @@ namespace ControlCilindros
             // Verificar si el vendedor está asociado a alguna transacción
             if (EstaAsociadoATransaccionPrestada(vendedor.Id))
             {
-                MessageBox.Show("No se puede eliminar este vendedor porque está asociado a transacciones existentes.",
+                MessageBox.Show("No se puede eliminar este vendedor porque está asociado a transacciones activas (cilindros prestados).",
                                "Operación no permitida",
                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
